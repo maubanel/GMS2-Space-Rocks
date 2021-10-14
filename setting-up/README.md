@@ -23,6 +23,8 @@ Go to [New GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/new-
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
+Click on the **[GitHub Classroom Link](https://classroom.github.com/a/-0bZbXAK) if you want a repository to use for the game.
+
 ![alt_text](images/.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
