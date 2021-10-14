@@ -4,7 +4,7 @@
 <!-- OVERVIEW -->
 This tutorial is intended for those wanting an introduction to <i>GameMaker Studio 2</i> using their scrpting language <i>GML</i>. This assumes no prior knowledge of the software or scripting. 
 
-Lets look at various ways of moving a human character in 8 dirctions.
+This is the start of creating a **Asteroids** 'like' video game.  It will be a simpler version of the original introducing basic game design and development concepts.
 
 * Tested on GameMake Studio2.3.5.589
 * An existing [GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/rename-project/README.md#user-content-rename-gms2-project)
@@ -24,15 +24,16 @@ Lets look at various ways of moving a human character in 8 dirctions.
 Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
 
 ## Introduction
-This is a follow up from [GMS2 First Look](https://github.com/maubanel/GMS2-First_Look) and is meant as a follow up/companion to **Space Rocks - GML Tutorial** which is a freely available tutorial at [YoYo Games Marketplace](https://marketplace.yoyogames.com/assets/7423/space-rocks-gml).  This beginner tutorial teaches you how to make a simplified version of Asteroids.  It uses GameMaker's GML programming language.
-
-The extended tutorial is a follow up to creating a structure where the developer can create escalation in difficulty. It is meant as a starting point and not a finished game! 
+This is based on [GMS2 First Look](https://github.com/maubanel/GMS2-First_Look) and is meant as a follow up/companion to **Space Rocks - GML Tutorial** which is a freely available tutorial at [YoYo Games Marketplace](https://marketplace.yoyogames.com/assets/7423/space-rocks-gml).  This will go into the development of a game from scratch.
 
 In this tutorial:
 
-* Import assets from other projects
+* Creating art assets
+* Space ship vehicle physics
+* Shooting
+* Animating obstacles
+* Audio sound effects
 * Add variables and comments to all scripts without changing functionality
-* Resize ship 
 * Add flame behind ship when accelerating
 * Add ship explosion animation
 * Change player death and end game timing
