@@ -17,7 +17,7 @@ Lets get started with setting up version control and starting the project.
 
 Go to [New GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/new-gml/README.md#user-content-new-gml-project) and create a project called `Space Rocks`.
 
-![alt_text](images/.png)
+![start gamemaker studio 2 project called Space Rocks](images/SpaceRocksDirectory.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 

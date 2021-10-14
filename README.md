@@ -7,7 +7,8 @@ This tutorial is intended for those wanting an introduction to <i>GameMaker Stud
 This is the start of creating a **Asteroids** 'like' video game.  It will be a simpler version of the original introducing basic game design and development concepts.
 
 * Tested on GameMake Studio2.3.5.589
-* An existing [GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/rename-project/README.md#user-content-rename-gms2-project)
+* [GitHub Account](https://github.com) (free)
+* GitHub Desktop(https://desktop.github.com)
 
 <br>
 
