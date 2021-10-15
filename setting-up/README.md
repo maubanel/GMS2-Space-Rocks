@@ -25,7 +25,7 @@ Go to [New GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/new-
 
 Click on the **[GitHub Classroom Link](https://classroom.github.com/a/-0bZbXAK)** if you want a repository to use for the game.
 
-![alt_text](images/.png)
+![GitHub desktop accept assignemtn page](images/AcceptAssignment.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
