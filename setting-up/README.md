@@ -31,25 +31,33 @@ Click on the **[GitHub Classroom Link](https://classroom.github.com/a/-0bZbXAK)*
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+You will now be sent to a message that says the repository is being configured.  Wait a few seconds then press the refresh button.
+
+![press refresh to see repository](images/refreshForLink.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Eventually you will get a link to the repository that **GitHub Classroom** has created.  *Click* on the link to your new repository.
+
+![press link to repository](images/linkToRepository.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.png)
+You get to your empty repository on **GitHub**.
+
+![empty repository](images/blankRepo.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **GitHub Desktop** and select **File | New Repository** to create a **GitHub** repository inside the **GameMaker Space Rocks** project you just created.
+
+![alt_text](images/fileNewRepository.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
