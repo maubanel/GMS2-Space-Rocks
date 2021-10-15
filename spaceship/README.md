@@ -114,7 +114,9 @@ In this code our when we set `image_angle = image_angle * 5`, this is adding eit
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Press the <kbd>Left</kbd> and <kbd>Right</kbd> arrow and the ship should rotate.
+
+![alt_text](images/RotatingShip.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
