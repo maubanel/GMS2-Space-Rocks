@@ -91,7 +91,7 @@ To rotate we will be using the polar coordinate system to rotate the space ship.
 
 We are using **[keyboard_check(key)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input/keyboard_check.htm)** that will return `1` when a key is being held and `0` when it is not. 
 
-Since we need to subtract degrees for moving clockwise (the right arrow key) we will be subtracting degrees for right and adding degrees for moving left.  So we will be subtracting vk_right from vk_left.  This way when we are pressing *right* we will get **(0-1) or -1** and when pressing *left* we will get **(1-0) or +1**.
+We need to *subtract* degrees for moving *clockwise* (the right arrow key) and *add* degrees for moving *counter-clockwise*.  So we will be subtracting vk_right from vk_left.  This way when we are pressing *right* we will get **(0-1) or -1** and when pressing *left* we will get **(1-0) or +1**.
 
 ![alt_text](images/addSubtract.png)
 
