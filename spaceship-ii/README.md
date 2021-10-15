@@ -39,7 +39,9 @@ Open up **obj_ship | Step** event and subtract the **ship_friction** from the **
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you can tune your acceleration, turn speed and friction to your liking.  When you are done we are finished with the space ship physics.
+
+![play game and see final physics](images/FinishedShipPhysics.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
