@@ -166,7 +166,9 @@ So below we are adding an acceleration of the direction the ship is pointing in 
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice that it feels like flying a space ship!  One major issue is that it can leave the level and no longer be seen, making it hard to fly back into the level.
+
+![play game and fly off screen](images/ShipOffScreen.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
