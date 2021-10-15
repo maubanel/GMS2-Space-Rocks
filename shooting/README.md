@@ -89,7 +89,7 @@ Now `instance_create_depth()` returns a **Real (instance ID value)**, which give
 
 So now we can dot instance into the **direction** and **speed** of the bullet you just created.  You can set the **direction** to the `image_angle` of the ship (we are in **obj_ship**) and the speed to `12`.
 
-![set speed and direciton of bullet](setBulletSpeedAndDirection.png)
+![set speed and direciton of bullet](images/setBulletSpeedAndDirection.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
