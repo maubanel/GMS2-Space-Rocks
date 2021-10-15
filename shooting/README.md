@@ -122,7 +122,9 @@ Open up **obj_ship** and press the <kbd>Add Event</kbd> and select **Other | Out
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. The only way to test it is to run it again in **Debug** mode.  Open up the **Instances** tab and make sure **Enable real time debugging** is on.  Now when the bullets leave the room they disappear and are no longer taking up memory.
+
+![play game and see bullets being destroyed in debugger](images/DebugBulletsGettingDestroyed.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
