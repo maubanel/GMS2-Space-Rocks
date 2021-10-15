@@ -89,13 +89,15 @@ Now `instance_create_depth()` returns a **Real (instance ID value)**, which give
 
 So now we can dot instance into the **direction** and **speed** of the bullet you just created.  You can set the **direction** to the `image_angle` of the ship (we are in **obj_ship**) and the speed to `12`.
 
-![set speed and direciton of bullet](BulletsAnimatingNoGC.gif)
+![set speed and direciton of bullet](setBulletSpeedAndDirection.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now press the <kbd>Space Bar</kbd> and you will notice that the bullets now move forward from the ship's facing direction at a fast speed.
+
+![play game and bullets now animate](images/BulletsAnimatingNoGC.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
