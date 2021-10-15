@@ -103,7 +103,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now there is a problem.  *Run* the game in debug mode by pressing the **Bug** icon.  This runs the game in debug mode.  Move the game off to the side.  Press the **Enable real time debugging** icon that looks like a lightning bolt. This turns on real time debugging. Then press the **Instance** tab at the bottom. Fire some bullets and see that the bullet objects are spawned.  Notice that they never disappear!  This means that eventually you will run out of memory and the game will crash.  So we need to make sure that when they leave the room and do not have any more function to us that we delete them for ever.
+
+![run game in debug mode, set real time to on and see bullets in debugger](images/DebugShowingBullets.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
