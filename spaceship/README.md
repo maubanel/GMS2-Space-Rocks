@@ -130,7 +130,13 @@ Now we do not want to hard code values we would like to change and tweek.  We ha
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **obj_ship | Step** event and replace the hard coded value `5` with the variable `rotation`.
+
+![replace 5 with rotation in step](images/replace5.png)
+
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. The game should be identical to how it was previously.
+
+![alt_text](images/RotatingShip.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
