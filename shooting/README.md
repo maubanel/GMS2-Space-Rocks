@@ -130,13 +130,17 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. T
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **obj_ship** and lets add three new variables.  Add a variable called `bullet_speed`.  We will use this to replace the hard coded value we put in the game already.  Create another variable called `reload_time` and set it to `5` frames.  We will use this to pause the firing (allow bullet to reload) for 5 frames before allowing the player to fire again.  We will also create a boolean variable `able_to_shoot` and set it to `true`.  We will use this as a switch to turn on and off the ability to shoot.
+
+![alt_text](images/threeNewVars.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Change the `bullet.speed = 12;` to `bullet.speed = bullet_speed;` in **obj_ship | Step**. This replaces the hard-coded value wiht a variable that we can tune.  Lets also add a compund if statement so that not only does the player have ot press the space bar, but the && (and) also requires them to have `able_to_shoot` to be `true`.  We also will make `able_to_shoot` false when the bullet fires.  
+
+![add able_to_shoot and bullet_speed](images/toggleBulletOff.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
