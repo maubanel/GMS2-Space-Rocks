@@ -182,7 +182,9 @@ There is a function called **[move_wrap(hor, vert, margin)](https://manual.yoyog
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the player will wrap but I keep accelerating in one direction the ship just goes faster and faster at infinitum.  We will need to clamp the speed.
+
+![ship wraps in room but accelerates indefinitely](images/TooFastWrapShip.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
