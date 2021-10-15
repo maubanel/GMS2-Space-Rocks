@@ -15,8 +15,9 @@ This is the start of creating a **Asteroids** 'like' video game.  It will be a s
 
 <!-- TOC -->
 ## Table of Contents
-<kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
 
+<kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
+<kbd></kbd> &nbsp;&nbsp; [The Spaceship](spaceship/README.md#user-content-the-spaceship) <br>
 
 
 
