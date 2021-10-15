@@ -104,7 +104,7 @@ Lets take this into a script.  Open up **obj_ship** and press the <kbd>Add Event
 1.  Subtract `vk_right` from `vk_left`.
 2.  Change `image_angle` 5 degrees per frame.
 
-In this code our when we set `image_angle = image_angle * 5`, this is adding either -5, 0 or 5 degrees  per frame. So if we are pressing left, `image_angle` starts at `0` (the default starting value of the ship facing right), then the second frame it moves to **0 + 5 or 5 degrees**. The next frame `image_angle` is now **5 degrees** and it will go to **5 + 5 or 10 degrees**. The next frame `image_angle` is now **10 degrees** and it will go to **10 + 5 or 15 degrees**.
+In this code our when we set `image_angle = image_angle * 5`, this is adding either -5, 0 or 5 degrees  per frame. So if we are pressing left, `image_angle` starts at `0` (the default starting value of the ship facing right), then the second frame it moves to **0 + 5 or 5 degrees**. The next frame `image_angle` is now **5 degrees** and it will go to **5 + 5 or 10 degrees**. The next frame `image_angle` is now **10 degrees** and it will go to **10 + 5 or 15 degrees**. And so on and so on...
 
 
 ![add step event and add rotation code](images/rotateShipStep.png)
