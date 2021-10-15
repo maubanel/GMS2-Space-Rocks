@@ -190,7 +190,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+Open up **spr_ship | Create** and add a variable called `max_speed` and set it to `8` pixels per frame.
+
+![add max_speed variable set to 8](images/maxSpeedCreate.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
