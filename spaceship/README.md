@@ -142,13 +142,23 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. T
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Open up **obj_ship | Create** event and create a new variable called `acceleration`.  This will be the amount we add to the speed of the ship in pixels per second.
+
+![add acceleration variable to ship create event](images/addAcceleration.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+We will be using **[motion_add(direction, speed)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement/motion_add.htm)**.
+
+> This function (motion_add(direction, speed)) will modify the current direction and speed of the instance running the code, combining the values given with the current values. - GameMaker Manual
+
+**[direction](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/direction.htm)** is like `image_angle` but instead of rotating a sprite it represents the angle that a game object is moving in.  So an object can move in a different direction that the direction it is pointing and needs a different variable.  So `image_angle` is for the sprite rotation and `direction` is for the *angle* the object is moving in.
+
+`motion_add(dir, spd)` adds a new force when the condition is met (in this case pressing `vk_up`). This gives the sensation that the ship is moving in a frictionless environment.
+
+![alt_text](images/motionAdd.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
