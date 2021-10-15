@@ -122,7 +122,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now we do not want to hard code values we would like to change and tweek.  We have hard coded 5 degrees as the speed of rotation.  Lets add a variable in **obj_ship | Create** event called `rotation`.
+
+![add rotation variable and set to 5](images/AddRotationVar.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
