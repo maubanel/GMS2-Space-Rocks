@@ -80,11 +80,19 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Y
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+To rotate we will be using the polar coordinate system to rotate the space ship.  **[image_angle]()** is used to rotate the sprite to an angle between 0 and 359 degrees.  Right is 0 degrees, up is 90, left is 180 and down is 270.  So to move counter-clockwise we are adding degrees and to rotate clockwise we are subtracking degrees.
+
+![diagram of polar coordinate system](images/polarCoordinate.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
+
+Now we want to rotate the ship with the left and right button.  Open up **obj_ship** and press the <kbd>Add Event</kbd> button and select **Step | Step**.  A step event runs every frame and will be used to move our ship.
+
+We will be taking the horizontal axis of our input (in this case the left and right arrow keys) and subtracting left from right.  This will create a value of **0** when no or both buttons are pressed, a value of **(1-0) or 1** when the right arrow is pressed and a value of **(0-1) or -1** when the left button is pressed.
+
+We are using [keyboard_check(key)()]
 
 ![alt_text](images/.png)
 
