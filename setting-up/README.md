@@ -2,7 +2,7 @@
 
 ### Setting Up
 
-<sub>[home](../README.md#user-content-gms2-ue4-space-rocks) • [next](../spaceship/README.md#user-content-the-spaceship)</sub>
+<sub>[home](../README.md#user-content-gms2-ue4-space-rocks) • [next](../spaceship-i/README.md#user-content-the-spaceship-i)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -107,9 +107,9 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - The Spaceship">
+<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - The Spaceship I">
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [home](../README.md#user-content-gms2-ue4-space-rocks) | [next](../spaceship/README.md#user-content-the-spaceship)|
+| [home](../README.md#user-content-gms2-ue4-space-rocks) | [next](../spaceship-i/README.md#user-content-the-spaceship-i)|
 |---|---|
