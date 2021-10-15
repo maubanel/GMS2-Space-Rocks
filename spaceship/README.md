@@ -174,7 +174,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+There is a function called **[move_wrap(hor, ver, margin)]()** to wrap the player from one side to the other.  The **hor** and **ver** parameters are booleans and need a `true` or `false`.  We will set them both to `true` as we want to wrap on all four sides of the room.  For the margin, the ship will teleport when the `origin` leaves the level.  So for our ship to be completely out of the room we need to offset the **margin** by `16` which is the location of the origin on both the x and y axis.
+
+![add move wrap](images/moveWrap.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
