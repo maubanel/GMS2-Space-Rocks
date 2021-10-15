@@ -198,7 +198,13 @@ Open up **spr_ship | Create** and add a variable called `max_speed` and set it t
 
 ##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **spr_ship | Step** event and add a **[clamp(val, min, max)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/clamp.htm)**. 
+
+> With this function you can maintain an input value between a specified range. - GameMaker Manual
+
+The **val** is the variable we want to clamp.  The min and max are the range.  We don't want our ship to move backwards so our **min** will be `0` and **max** will be `max_speed` (8).
+
+![clamp max speed](images/clampMaxSpeed.png)
 
 ___
 
