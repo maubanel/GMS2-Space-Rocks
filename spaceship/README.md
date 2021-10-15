@@ -88,19 +88,26 @@ To rotate we will be using the polar coordinate system to rotate the space ship.
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-Now we want to rotate the ship with the left and right button.  Open up **obj_ship** and press the <kbd>Add Event</kbd> button and select **Step | Step**.  A step event runs every frame and will be used to move our ship.
 
-We will be taking the horizontal axis of our input (in this case the left and right arrow keys) and subtracting left from right.  This will create a value of **0** when no or both buttons are pressed, a value of **(1-0) or 1** when the right arrow is pressed and a value of **(0-1) or -1** when the left button is pressed.
+We are using **[keyboard_check(key)(https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input/keyboard_check.htm)]** that will return `1` when a key is being held and `0` when it is not. 
 
-We are using [keyboard_check(key)()]
+Since we need to subtract degrees for moving clockwise (the right arrow key) we will be subtracting degrees for right and adding degrees for moving left.  So we will be subtracting vk_right from vk_left.  This way when we are pressing *right* we will get **(0-1) or -1** and when pressing *left* we will get **(1-0) or +1**.
 
-![alt_text](images/.png)
+![alt_text](images/addSubtract.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Lets take this into a script.  Open up **obj_ship** and press the <kbd>Add Event</kbd> button and select **Step | Step**.  A step event runs every frame and will be used to move our ship. Add the following steps:
+
+1.  Subtract `vk_right` from `vk_left`.
+2.  Change `image_angle` 5 degrees per frame.
+
+In this code our when we set `image_angle = image_angle * 5`, this is adding either -5, 0 or 5 degrees  per frame. So if we are pressing left, image_angle starts at `0` (the default starting value of the ship facing right), then the second frame it moves to **0 + 5 or 5 degrees**. The next frame image_angle is now **5 degrees** and it will go to **5 + 5 or 10 degrees**. The next frame image_angle is now **10 degrees** and it will go to **10 + 5 or 15 degrees**.
+
+
+![add step event and add rotation code](images/rotateShipStep.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
