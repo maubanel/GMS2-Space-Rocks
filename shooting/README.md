@@ -112,7 +112,11 @@ Now there is a problem.  *Run* the game in debug mode by pressing the **Bug** ic
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **obj_ship** and press the <kbd>Add Event</kbd> and select **Other | Outside Room**.  This will only run when an object leaves the room.  We will add a **[instance_destroy()](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/instance_destroy.htm)** to destroy the bullet object.
+
+> You call this function whenever you wish to "destroy" an instance, normally triggering a Destroy Event and also a Clean Up Event. Calling the function with no arguments will simply destroy the instance that is currently in scope and running the code. - GameMaker Manual
+
+![add outside room event and destroy bullet](images/destroyBullet.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
