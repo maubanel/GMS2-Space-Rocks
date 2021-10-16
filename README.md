@@ -26,11 +26,14 @@ This is the start of creating a **Asteroids** 'like' video game.  It will be a s
 <kbd></kbd> &nbsp;&nbsp; [Front End](game-loop/README.md#user-content-front-end) <br>
 <kbd></kbd> &nbsp;&nbsp; [Score](score/README.md#user-content-score) <br>
 <kbd></kbd> &nbsp;&nbsp; [Lives, Winning and Losing](lives/README.md#user-content-lives-winning-and-losing) <br>
+<kbd></kbd> &nbsp;&nbsp; [Launch Waves](lives/README.md#user-content-lives-winning-and-losing) <br>
+<kbd></kbd> &nbsp;&nbsp; [Audio](lives/README.md#user-content-lives-winning-and-losing) <br>
 
+ 
 
-Hud with time
-Launch waves
-Audio 
+Extra walk through - add flame to back of ship
+Extra walk through add time in room
+
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
