@@ -159,14 +159,21 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+ Now we want the **obj_game** to persist from level to level.  We are going to use it for all of our master game logic that transends the front end, game and win/lose screens. But if we run in debug and look at what instances are in the room, we see it in the **rm_front_end** but not in **rm_game**.  How do we make **obj_game** persist from room to room?
 
-![alt_text](images/.png)
+![obj_game missing in game](images/objGameMissing.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_game** and set **[persistent](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/persistent.htm)** to `true`.
+
+> This variable can be read to find out if the instance is flagged as persistent or not, or it can used to set persistence to true (persistent) or false (not persistent) for the instance. A persistent instance is one that will be "carried over" from room to room, meaning (for example) that it only has to be created once at the start of the game and it will be present in all further rooms. Care should be taken with persistence as it is easy to lose track of persistent instances which can lead to problems later in the development of the game. - GameMaker Manual
+
+So we will be careful with this object and it will be the only persistent one in the game.
+
+![make obj_game persistent](images/objGamePersistent.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
