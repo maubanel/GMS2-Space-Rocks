@@ -120,7 +120,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. L
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Right click* on **Fonts** and select **New | Font** and name it `fnt_low_res`. Set **Select Font** to `Edge of the Galaxy` with a **Style** of `Regular` and **Size** of `56`.
+*Right click* on **Fonts** and select **New | Font** and name it `fnt_low_res`. Set **Select Font** to `Advanced Pixel 7` with a **Style** of `Regular` and **Size** of `24`.
 
 ![select 24 point low res font](images/fnt_low_res.png)
 
