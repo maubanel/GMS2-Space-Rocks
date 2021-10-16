@@ -146,19 +146,29 @@ Change the `bullet.speed = 12;` to `bullet.speed = bullet_speed;` in **obj_ship 
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the game fires a single bullet and `able_to_shoot` is false so it will not fire any more bullets.  This is what we want.  We will set it to `true` again after the `reload_time`.
+
+![ship only fires a single bullet](images/FireOneBullet.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+We will be using an **[alarm](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/alarm.htm)**.
+
+> This 1 dimension array is used to get the current value for any alarms that the instance may have, or it can be used to set those alarms. There are twelve alarms built into each instance of an object, and each one has its own event that will run when this variable reaches 0. - GameMake Manual 
+
+We will set an alarm to go off in 5 frames (length of `reload_time`).
+
+![set alarm after firing bullet](images/alarm0Call.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now press the <kbd>Add Event</kbd> button and select **Alarm | Alarm0**.  This alarm will reset `able_to_shoot` back to `true`.
+
+![set alarm0 to be able to fire gun again](images/ableToShootAlarm.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
