@@ -97,7 +97,7 @@ Double click the fonts to install them on your computer.  On the mac **GameMaker
 
 *Right click* on **Fonts** and select **New | Font** and name it `fnt_title`. Set **Select Font** to `Edge of the Galaxy` with a **Style** of `Regular` and **Size** of `56`.
 
-![alt_text](images/titleFont.png)
+![add fnt_title with a 56 point Edge of the galaxy font](images/titleFont.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
