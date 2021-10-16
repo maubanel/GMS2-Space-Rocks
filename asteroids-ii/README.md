@@ -33,7 +33,9 @@ We can do better.  Lets add an exploding ship and have it last longer to rub in 
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_ship | Collision | obj_rock** and add the ship explosions to the bottom of the script.
+
+![destroy ship explosion in rock collision](images/rockDestroysShip.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
