@@ -1,12 +1,12 @@
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-### Main Game Loop
+### Front End
 
 <sub>[previous](../next-size/README.md#user-content-spawn-next-size-rock) • [home](../README.md#user-content-gms2-ue4-space-rocks) • [next](../)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Lets look at implementing a start screen, win screen and lose screen.  This way we should be able to complete and restart a game upon completion.
+Lets look at implementing a start screen. Lets have some rocks floating in the background with a title and instructions on how to play the game.
 
 <br>
 
