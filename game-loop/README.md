@@ -144,7 +144,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Go back to **obj_game** and press the <kbd>Add Event</kbd> and select a **Step | Step** event. Then check to make sure we are in the first room, if we are then we can change rooms to the game!
+
+![add step event for obj_game then check for enter key press in fe level](images/stepFEGame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
