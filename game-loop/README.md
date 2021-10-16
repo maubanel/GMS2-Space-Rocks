@@ -15,7 +15,7 @@ Lets look at implementing a start screen. Lets have some rocks floating in the b
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-*Right click* on **Rooms** and select **New | Room** and name it `rm_front_end`. Change the **Room Order** to place this room on the top of the list.
+*Right click* on **Rooms** and select **New | Room** and name it `rm_front_end`. Change the **Room Order** to place this room on the top of the list. Change the **Width** to `1024`.
 
 ![add rm_front_end and put on the top of room order](images/rmFE.png)
 
