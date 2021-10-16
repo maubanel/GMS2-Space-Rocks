@@ -166,17 +166,27 @@ Now we need to destroy the ship when the rock hits it.  Open up **obj_ship** and
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Run into the rock with teh ship.  Notice that they both are destroyed.  It looks like it is destroyed before I hit the rock.  Lets adjust the collision volumes as the default is to take the entire square.
+
+![alt_text](images/RockShipDestroyedLarge.gif)
+
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+
+Now we do not want the default collision volume. We want to set it inside the sprite so the player can graze off of the edge and not get killed.  We want a clean hit so making collisions smaller is one way of accomplishing this.  Press the 
+
+![alt_text](images/adjustCollisionOfRocks.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
+
+
+
 
 ![alt_text](images/.png)
 
