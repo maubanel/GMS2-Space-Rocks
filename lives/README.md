@@ -128,7 +128,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Now open up **obj_game | Step** event.  Change the **keyboard_check** to **keyboard_check_pressed**.  Otherwise when coming back from the lose screen the game will skip right past the front end screen.  This way the player has to let go of enter and press again to go back to the game, which is the expected behavior.  Now add a check for the enter key in the game over screen and restart the game if it is pressed.
+
+![restart game](images/EndLoopToBeginning.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
