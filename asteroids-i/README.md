@@ -96,14 +96,16 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+*Right click* on **Sprites** and select **New | Sprite** and name it `spr_explosion`. Select the **Size** icon and change the size to `2` by `2`.  *Right click* on **Objects** and select **New | Object** and name it `obj_explosion`. Set the **Sprite** to `spr_explosion`.
+
+![create 2 by 2 explosion sprite and object](images/explosionSpriteObject.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/FillInExplosion.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
