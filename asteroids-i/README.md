@@ -1,12 +1,12 @@
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-### Add Title
+### Asteroids I
 
 <sub>[previous](../) • [home](../README.md#user-content-gms2-ue4-space-rocks) • [next](../)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Now that we have a ship that fires bullets, we need targets to shoot at.  The original game had three sizes of asteroids.  A large asteroid, that when shot would spawn two medium ones.  When the medium ones are destroyed they would spawn two small ones.  So adding one large asteroid to the level, adds 6 extra rocks to clear after it is destroyed (2 medium and 4 small).
 
 <br>
 
