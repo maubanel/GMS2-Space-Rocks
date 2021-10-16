@@ -104,13 +104,17 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **obj_ship | Collision | obj_rock** and paste the code to change rooms and replace it by calling **ALarm1** on `obj_game`.  Again the ship will die so we have to call an alarm in **obj_game** and we have already used the first **Alarm0** slot.
+
+![call alarm to change to lose room](images/objShipAlarm1.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **obj_game** and press the <kbd>Add Event</kbd> and select a **Alarm | Alarm1** event. Add the code you copies to go to the lose room.
+
+![add alarm 1 to obj_game to go to losing room](images/AlarmOneGame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
