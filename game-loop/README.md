@@ -128,7 +128,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. L
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/draw_game_instructions.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
