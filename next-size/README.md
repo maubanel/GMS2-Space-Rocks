@@ -35,7 +35,11 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+So lets send the rocks off at different angles from the original path.  Also lets randomize the rotation of the rock so they are offset and look more natural.
+
+
+
+![alt_text](images/SprayRocks.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
