@@ -78,7 +78,11 @@ Lets open up **obj_rock** and press the <kbd>Add Event</kbd> button and add a **
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+When the rock gets hit by the bullet we want to destroy both the bullet and the rock.  The first `instance_destroy()` kills the rock. The **[other](https://manual.yoyogames.com/GameMaker_Language/GML_Overview/Instance_Keywords.htm)** keyword is used to access the namespace of the object we are colliding with (just a single instance).  So since we are in the rock this would be a reference to the bullet.  When we use `with(other)` we are entering that object's namespace.  So we can destroy the bullet within the `with` statement. 
+
+> The other instance involved in a collision event, in a with function or in a function. - GameMake Manual
+
+![destroy rock and bullet](images/instanceDestroyRock.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
