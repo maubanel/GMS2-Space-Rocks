@@ -95,7 +95,7 @@ Double click the fonts to install them on your computer.  On the mac **GameMaker
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-*Right click* on **Fonts** and select **New | Font** and name it `fnt_title`.
+*Right click* on **Fonts** and select **New | Font** and name it `fnt_title`. Set **Select Font** to `Edge of the Galaxy` with a **Style** of `Regular` and **Size** of `56`.
 
 ![alt_text](images/titleFont.png)
 
