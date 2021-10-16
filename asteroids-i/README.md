@@ -39,7 +39,9 @@ Make sure the **Origin** on all of them is `Middle | Center`.
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we want to spawn new rocks to send to the player just outside the room.  We also want to `move_wrap` the rocks so that when they leave the room they come back on the other side.  Now we don't want a spawned rock to move wrap.  So we want to make sure we spawn within **half a sprite** width of the rock and the `move_wrap` **margin** is a **full** sprite_width.
+
+![alt_text](images/stategyForSpawningMoveWrap.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
