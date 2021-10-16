@@ -121,13 +121,30 @@ Open up **obj_rock | Collision | obj_bullet** and add to the bottom 40 explosion
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **obj_explosion** and press the <kbd>Add Event</kbd> button and select a **Create** event.  We will send the rock in a random direction between 0 and 359 degrees (0 is the same as 360).  We use **[irandom_range(n1, n2)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/irandom_range.htm)**.
+
+> This function is similar to random_range() only with integer values as the input. You supply the low value for the range as well as the high value, and the function will return a random integer value within (and including) the given range. For example, irandom_range(10, 35) will return an integer between 10 and 35 inclusive. - GameMaker Manual
+
+We will also use **[random_range(n1, n2)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/random_range.htm)** for the speed of the player.  This returns a fractional value between the two numbers.
+
+![set random direction and speed](images/objExplosionCreate.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Press the <kbd>Add Event</kbd> and select a **Step | Step** event. We will now adjust the **[image_alpha](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/image_alpha.htm)**.
+
+> This variable is used to get or to set the alpha value for the sprite. Alpha is always calculated as a value between 0 and 1 where 0 is completely transparent and 1 is completely opaque. 
+
+We will fade it out over 1 second.  We calculate this by dividing `1/room_speed`. We will use the **[room_speed](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Rooms/room_speed.htm)** to get an exact timing of one second.
+
+> This variable (room_speed) holds the running speed of all rooms (and the game) in game frames per second. Note that this is NOT the FPS (frames per second) but rather the number of game steps that GameMaker Studio 2 will try to maintain each second.
+
+
+We will subtract this fraction from the **image_alpha** which will fade the sprite out.  We then check to see if it as at `<=0` and since it is now invisible destroy the object so it no longer takes up memory. 
+
+![alt_text](images/explosionStep.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
