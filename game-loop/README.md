@@ -15,7 +15,9 @@ Lets look at implementing a start screen, win screen and lose screen.  This way 
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-![alt_text](images/.png)
+*Right click* on **Rooms** and select **New | Room** and name it `rm_front_end`. Change the **Room Order** to place this room on the top of the list.
+
+![add rm_front_end and put on the top of room order](images/rmFE.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
