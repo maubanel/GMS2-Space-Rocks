@@ -25,6 +25,8 @@ Open up **obj_rock** and go to **Collisions | obj_bullet** and now lets check to
 
 > This variable returns the index of the current sprite for the instance, or -1 if the instance has no sprite associated with it. You can change it to give the instance a different sprite by giving it the name of a sprite from the resource tree or by using a variable that has an externally loaded sprite indexed in it. - GameMaker Manual
 
+
+
 ![alt_text](images/spawnTwoRocks.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
