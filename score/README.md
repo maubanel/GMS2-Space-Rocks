@@ -41,11 +41,17 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/AddScoreToRocks.png)
+Now we can also dot instance into an ENTIRE object class.  So if we have `obj_game.sprite_index` we can access the **sprite_index** variable in **ALL** instances of this object in the room.  Since we only have one instance of hte game object it should be ok to access its variable for `p1_score`.
+
+We need to do this because we have to open **obj_rock | Collision | obj_bullet** as this is the only place we have in the game when we know which rock is destroyed.  We just add 20, 50 and 100 points for each rock.  We have to add a final `else` and don't need to check to see if it is `sprite_index == spr_rock_small` as we have checked for large and medium so the only one left is small.
+
+![add points for each rock](images/AddScoreToRocks.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
+
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now shoot all the rocks and you can get up to 620 points!
 
 ![play the game shoot rocks see score advance](images/ScoringInGame.gif)
 
