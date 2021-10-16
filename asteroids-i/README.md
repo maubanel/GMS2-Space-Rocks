@@ -158,7 +158,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we need to destroy the ship when the rock hits it.  Open up **obj_ship** and press the <kbd>Add Event</kbd> and select a **Collision | obj_rock** event. We will then destroy both the rock and the ship.
+
+![destroy rock and ship when they collide](images/shipRockCollision.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
