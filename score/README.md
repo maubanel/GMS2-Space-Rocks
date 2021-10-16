@@ -23,7 +23,11 @@ Go to **obj_game** and press the <kbd>Add Event</kbd> and select a **Create** ev
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/drawScore.png)
+Draw a score text in the front end.  It uses `draw_text` and remember to add two strings together you have to cast the real number to a string by using `string(p1_score)` as `p1_score` holds a real number variable.
+
+Also, check to see if we are in `rm_game` and if we are set alignment to the left, color to white and font to low res.  Print the font again.
+
+![print score in fe and game screens](images/drawScore.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
