@@ -25,7 +25,9 @@ This is the start of creating a **Asteroids** 'like' video game.  It will be a s
 <kbd></kbd> &nbsp;&nbsp; [Spawn Next Size Rock](next-size/README.md#user-content-spawn-next-size-rock) <br>
 <kbd></kbd> &nbsp;&nbsp; [Front End](game-loop/README.md#user-content-front-end) <br>
 <kbd></kbd> &nbsp;&nbsp; [Score](score/README.md#user-content-score) <br>
-Lives
+<kbd></kbd> &nbsp;&nbsp; [Lives, Winning and Losing](lives/README.md#user-content-lives-winning-losing) <br>
+
+
 Hud with time
 Launch waves
 Audio 

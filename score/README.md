@@ -43,7 +43,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 Now we can also dot instance into an ENTIRE object class.  So if we have `obj_game.sprite_index` we can access the **sprite_index** variable in **ALL** instances of this object in the room.  Since we only have one instance of hte game object it should be ok to access its variable for `p1_score`.
 
-We need to do this because we have to open **obj_rock | Collision | obj_bullet** as this is the only place we have in the game when we know which rock is destroyed.  We just add 20, 50 and 100 points for each rock.  We have to add a final `else` and don't need to check to see if it is `sprite_index == spr_rock_small` as we have checked for large and medium so the only one left is small.
+We need to do this because we have to open **obj_rock | Collision | obj_bullet** as this is the only place we have in the game when we know which rock is destroyed.  We just add 20, 50 and 100 points for each rock.  We have to add a final `else` and don't need to check to see if it is `sprite_index == spr_rock_small` as we have checked for large and medium so the only one left after that is small.
 
 ![add points for each rock](images/AddScoreToRocks.png)
 
@@ -59,98 +59,10 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![save, quit, commit and push to github](images/GitHub.png)
 
-##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-
-##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
-
-![alt_text](images/.png)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
 
 ___
 
