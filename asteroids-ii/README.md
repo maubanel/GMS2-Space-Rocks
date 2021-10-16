@@ -41,7 +41,7 @@ Open up **obj_ship | Collision | obj_rock** and add the ship explosions to the b
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we can have similar code to the exploding rocks.  Press the <kbd>Add Event</kbd> and select a **Create** event. We will be adding an `image_angle` rotation as this is not a simetrical object so we want it to spin moving outwards as well as going in a random direction and speed.
+Now we can have similar code to the exploding rocks.  Open up **obj_ship_explosion**. Press the <kbd>Add Event</kbd> and select a **Create** event. We will be adding an `image_angle` rotation as this is not a simetrical object so we want it to spin moving outwards as well as going in a random direction and speed.
 
 ![alt_text](images/shipExplosionCreate.png)
 
@@ -49,7 +49,9 @@ Now we can have similar code to the exploding rocks.  Press the <kbd>Add Event</
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Add Event</kbd> and select a **Step | Step** event.
+
+![alt_text](images/ShipExplosionStep.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
