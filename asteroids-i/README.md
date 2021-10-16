@@ -177,7 +177,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. R
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
-Now we do not want the default collision volume. We want to set it inside the sprite so the player can graze off of the edge and not get killed.  We want a clean hit so making collisions smaller is one way of accomplishing this.  Press the 
+Now we do not want the default collision volume. We want to set it inside the sprite so the player can graze off of the edge and not get killed.  We want a clean hit so making collisions smaller is one way of accomplishing this.  Press the **Collision Mask** and change the **Mode** to `Manual` and the **Type** top `Ellipse(Slow)`.  Then adjust the **Left**, **Right**, **Top** and **Bottom** on all three rock sprites.  Make the circle fit inside the lines to the best you can and leave the collisions a bit smaller than you think.
 
 ![alt_text](images/adjustCollisionOfRocks.png)
 
