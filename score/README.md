@@ -15,7 +15,7 @@ Lets add a score display to the front end and game! The player will get 20 point
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-Go to **obj_game** and press the <kbd>Add Event</kbd> and select a **Create** event. Create a new variable `p1Score` and set it to `0`.
+Go to **obj_game** and press the <kbd>Add Event</kbd> and select a **Create** event. Create a new variable `p1_score` and set it to `0`.
 
 ![add create event to obj_game and create a score variable](images/addCreateEvent.png)
 
