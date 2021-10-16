@@ -136,9 +136,9 @@ Open up **obj_game | Draw** and change the font to white and to **fnt_low_res**.
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you should see the instructions we printed above in the game.
 
-
-![alt_text](images/.png)
+![full instructions for front end](images/spaceRocksTitleInGame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
