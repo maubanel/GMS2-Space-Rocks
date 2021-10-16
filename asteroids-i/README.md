@@ -193,7 +193,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_ship | Collision | obj_bullet** and inside the **with(other)** spawn 40 explosions.  We need to do this *inside* the `with` as we want it to spawn from the middle of the rock and NOT the ship.  So this accesses the `other` object we are colliding with so in this case the rock.
+
+![add fourty explosions for rock](images/FourtyExplosions.png)
 
 ___
 
