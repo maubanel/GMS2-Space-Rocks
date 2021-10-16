@@ -113,7 +113,9 @@ Open up **spr_explosion** and select <kbd>Edit Sprite</kbd>.  Select the **Paint
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **obj_rock | Collision | obj_bullet** and add to the bottom 40 explosions.  Put it at a **depth** of 5 so that it is behind everything else on the screen.
+
+![create 40 explosions](images/Create40Explisions.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
