@@ -47,13 +47,16 @@ Now we want to spawn new rocks to send to the player just outside the room.  We 
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Add Event</kbd> and select a **Create** event.  Remember this only runs once when the rock is created.  Now we will be dealing with the launching of rocks later on so we will put in a temporary **direction** and **speed**.  We will also need a variable to hold the **width** of the sprite which will help us with the margin we will need in the `move_wrap`.  
+![alt_text](images/RockCreateEvent.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Add Event</kbd> and select a **Step | Step** event. Now we will want to rotate the sprite `.4` degrees per frame for a slow rotation.  We also want to `move_wrap` both horizontally and vertically with a margin of 1 sprite width.
+
+![add step event with move wrap and rotation](images/rockStep.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
