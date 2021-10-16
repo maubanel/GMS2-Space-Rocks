@@ -25,7 +25,7 @@ Open up **obj_rock** and go to **Collisions | obj_bullet** and now lets check to
 
 > This variable returns the index of the current sprite for the instance, or -1 if the instance has no sprite associated with it. You can change it to give the instance a different sprite by giving it the name of a sprite from the resource tree or by using a variable that has an externally loaded sprite indexed in it. - GameMaker Manual
 
-
+Then we repeat spawining a rock twice.  Now we need to change the default `sprite_index` as it is set to **spr_rock_large**.  We also need to change the size for deciding where to spawn and where to `move_wrap` with the `size` variable.  We can dot instance into another object instance's variable because `instance_create_depth()` returns the id of this instance of the newly created rock.
 
 ![alt_text](images/spawnTwoRocks.png)
 
