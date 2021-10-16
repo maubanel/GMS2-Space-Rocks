@@ -19,7 +19,7 @@ This is the start of creating a **Asteroids** 'like' video game.  It will be a s
 <kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
 <kbd></kbd> &nbsp;&nbsp; [The Spaceship I](spaceship-i/README.md#user-content-the-spaceship-i) <br>
 <kbd></kbd> &nbsp;&nbsp; [The Spaceship II](spaceship-ii/README.md#user-content-the-spaceship-ii) <br>
-<kbd></kbd> &nbsp;&nbsp; [Shooting](shooting/README.md#user-content-the-spaceship-ii) <br>
+<kbd></kbd> &nbsp;&nbsp; [Shooting](shooting/README.md#user-content-shooting) <br>
 <kbd></kbd> &nbsp;&nbsp; [Asteroids I](asteroids-i/README.md#user-content-asteroids-i) <br>
 
 <!-- LICENSE -->
