@@ -87,14 +87,17 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-Open up **obj_game | Draw** and add text for the lose screen.  
+Open up **obj_game | Draw** and add text for the lose screen. Align a red title font that says `Game Over`.  Then print in white usign the regular font the final score and instructions on how to restart.
+
 ![alt_text](images/gameOver.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now lose the game on purpose.  It works, but it is too sudden on the final death and we should delay the transition to see the ship die with another alarm set to 4 seconds.
+
+![alt_text](images/loseGame.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
