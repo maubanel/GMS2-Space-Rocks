@@ -47,7 +47,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Open up **obj_game | Draw** and add a lives to the hud.  Draw it at `46` on the **y** just under the score.
+
+![draw lives in obj_game hud](images/drawLives.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
