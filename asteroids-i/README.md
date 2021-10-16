@@ -70,7 +70,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Lets open up **obj_rock** and press the <kbd>Add Event</kbd> button and add a **Collision | obj_bullet** event.  A collision event runs any time the object type in the calling collision event (obj_rock) collides with a bullet.  You do not want to have two reciprical events (another bullet colliding with rock) as we only need to check the collision once.  We are picking it from the rock as we will want to add some effects from the rocks location during destruction.
+
+![add collision between rock and bullet event](images/rockBulletCollision.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
