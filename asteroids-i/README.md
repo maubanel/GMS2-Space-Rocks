@@ -88,7 +88,9 @@ When the rock gets hit by the bullet we want to destroy both the bullet and the 
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now shoot the rock with the bullet and it will destroy the bullet and the rock.  Now this is very unsatisfying as we do not get a lot of positive feedback for blowing up this giant rock.  Lets address that.
+
+![bullet and rock are destroyed on collision in game](images/bulletKillsRock.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
