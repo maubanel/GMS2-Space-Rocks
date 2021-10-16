@@ -25,7 +25,7 @@ Now that we have a ship that fires bullets, we need targets to shoot at.  The or
 
 Make sure the **Origin** on all of them is `Middle | Center`.
 
-![alt_text](images/.png)
+![change origin of 3 astroids to middle center](images/centerOrigin.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
