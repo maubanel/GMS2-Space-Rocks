@@ -37,6 +37,12 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 So lets send the rocks off at different angles from the original path.  Also lets randomize the rotation of the rock so they are offset and look more natural.
 
+Now since I want one to be +60 degrees and the other -60 degrees from the original path we have to create a variable to change the sign of the angle.  We use an `i` of `1` to multiply with the direction chain:
+
+`medium_rock.direction = direction + 60 * i;`
+
+So we need to dot instance into the newly spawned medium rock and set its direction to the current direction of the rock we are destroying by +- 60 degrees. By making `i = -1;` after the first loop means that it is + on the first loop and - on the second. 
+
 
 
 ![alt_text](images/SprayRocks.png)
