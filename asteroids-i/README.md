@@ -105,6 +105,8 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Open up **spr_explosion** and select <kbd>Edit Sprite</kbd>.  Select the **Paint Bucket** and fill the sprite with a white color.
+
 ![alt_text](images/FillInExplosion.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
