@@ -23,6 +23,7 @@ This is the start of creating a **Asteroids** 'like' video game.  It will be a s
 <kbd></kbd> &nbsp;&nbsp; [Asteroids I](asteroids-i/README.md#user-content-asteroids-i) <br>
 <kbd></kbd> &nbsp;&nbsp; [Asteroids II](asteroids-ii/README.md#user-content-asteroids-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Spawn Next Size Rock](next-size/README.md#user-content-spawn-next-size-rock) <br>
+<kbd></kbd> &nbsp;&nbsp; [Main Game Loop](game-loop/README.md#user-content-game-loop) <br>
 
 <!-- LICENSE -->
 ## License
