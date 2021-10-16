@@ -23,7 +23,7 @@ Open up  **obj_game | Create** event and add a variable `p1_lives` and set the n
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Now go to **obj_ship | Collision | obj_rock** and
+Now go to **obj_ship | Collision | obj_rock** and first check to see if there are lives left.  We need to dot instance into the `obj_game` as we are not inside this object.  We can access its variables this way.  We then subtract one life then call an alarm on **obj_game**.  This is done because the ship will be destroyed and we can't have an alarm on a destroyed objetc (it is destroyed with it). We need an alarm as want to enjoy the ship exploding and we need about 4 seconds for the debris to clear.
 
 ![alt_text](images/checkLives.png)
 
@@ -31,7 +31,9 @@ Now go to **obj_ship | Collision | obj_rock** and
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_game** and press the <kbd>Add Event</kbd> and select a **Alarm | Alarm0** event. Spawn another ship in the middle of the room on **Depth** `0`.
+
+![respawn player in alarm](images/gamealarmRespawn.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
