@@ -39,7 +39,9 @@ Open up **obj_game** and press the <kbd>Add Event</kbd> and select a **Alarm | A
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now run into a rock and after 4 seconds you will respawn.
+
+![fly into rock and respawn](images/RespawnOnDeath.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
