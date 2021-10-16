@@ -21,7 +21,7 @@ Open up **obj_rock** and go to **Collisions | obj_bullet** and now lets check to
 
 Then we repeat spawining a rock twice.  Now we need to change the default `sprite_index` as it is set to **spr_rock_large**.  We also need to change the size for deciding where to spawn and where to `move_wrap` with the `size` variable.  We can dot instance into another object instance's variable because `instance_create_depth()` returns the id of this instance of the newly created rock.
 
-![alt_text](images/spawnTwoRocks.png)
+![spawn two medium rocks when large one is killed](images/spawnTwoRocks.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -29,7 +29,7 @@ Then we repeat spawining a rock twice.  Now we need to change the default `sprit
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the problem is that it creates two rocks on top of each other so it looks like one rock. This means that it looks like we have to shoot it twic to kill it.  But it is two objects right on top of each other.
 
-![alt_text](images/OverlappingMedRocks.gif)
+![play game two rocks spawn on top of each other](images/OverlappingMedRocks.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
