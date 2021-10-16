@@ -63,7 +63,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **obj_ship | Collision | obj_rock** and lets spawn another rock.  We will remove this later as we will be introducing waves into the game.  But for testing losing we need a rock to kill us!
+
+![add rock spawning to obj_ship](images/respawnRockAtPlayerDeath.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
