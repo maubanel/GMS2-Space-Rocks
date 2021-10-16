@@ -136,7 +136,9 @@ Now open up **obj_game | Step** event.  Change the **keyboard_check** to **keybo
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have a full loop where we can lose then restart the game.  Next on lets look at a win condition.
+
+![lose loop complete](images/FinishedLoseLoop.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
