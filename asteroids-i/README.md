@@ -135,7 +135,7 @@ We will also use **[random_range(n1, n2)](https://manual.yoyogames.com/GameMaker
 
 Press the <kbd>Add Event</kbd> and select a **Step | Step** event. We will now adjust the **[image_alpha](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/image_alpha.htm)**.
 
-> This variable is used to get or to set the alpha value for the sprite. Alpha is always calculated as a value between 0 and 1 where 0 is completely transparent and 1 is completely opaque. 
+> This variable (image_alpha) is used to get or to set the alpha value for the sprite. Alpha is always calculated as a value between 0 and 1 where 0 is completely transparent and 1 is completely opaque. 
 
 We will fade it out over 1 second.  We calculate this by dividing `1/room_speed`. We will use the **[room_speed](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Rooms/room_speed.htm)** to get an exact timing of one second.
 
