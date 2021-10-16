@@ -185,10 +185,9 @@ Now we do not want the default collision volume. We want to set it inside the sp
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you need to be a bit closer to the rock to be destroyed.  Tune the collision to your liking.
 
-
-
-![alt_text](images/.png)
+![play game and ship and rock are destroyed](images/CloserDestruction.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
