@@ -55,7 +55,9 @@ Open up **obj_game | Draw** and add a lives to the hud.  Draw it at `46` on the 
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the lives countdown when you die.
+
+![lives hud in game](images/LivesHUD.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
