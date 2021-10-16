@@ -33,6 +33,8 @@ Also, check to see if we are in `rm_game` and if we are set alignment to the lef
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you should be able to see an empty score in each screen.
+
 ![alt_text](images/ScoreInGame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
