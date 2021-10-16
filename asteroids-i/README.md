@@ -31,7 +31,9 @@ Make sure the **Origin** on all of them is `Middle | Center`.
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+*Right click* on **Objects** and select **New | Object** and name it `obj_rock`. Set the **Sprite** to `spr_rock_large`.
+
+![add obj_rock with spr_rock_large sprite](images/objRock.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
