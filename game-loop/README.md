@@ -57,7 +57,7 @@ In **obj_game | Room Start** randomize the direction the rock moves in as well a
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the speed and direction helps but they are all starting at the same angle. Lets change this.
 
-![Now they move at different angles and speeds](images/FrontEndRocksTake2.GIF)
+![Now they move at different angles and speeds](images/FrontEndRocksTake2.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
