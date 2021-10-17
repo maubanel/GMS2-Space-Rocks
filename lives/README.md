@@ -168,7 +168,9 @@ Press the <kbd>Add Event</kbd> and select an **Alarm | Alarm2** event. Now switc
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/winTextDraw.png)
+Open up **obj_game | Draw** script and add logic for drawing text to the win screen.  Draw `You Win` in the title font in lime.  Draw the final score and instructions for how to continue in the regular low res white font.
+
+![draw win text](images/winTextDraw.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
