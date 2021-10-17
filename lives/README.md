@@ -152,19 +152,23 @@ Now we will put in a win condition for testing for now.  You will need to finish
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we need to trigger an alarm 3 seconds in the futue.  The issue with **alarms** in step events is that if the condition runs every frame (so if the next frame, the score is still => 500) then it will set the alarm again ahead 3 seconds.  So the alarm will never ring (like hitting snooze every frame).  So the **alarm** starts at `-1` then we set it to 3.  So we can put an `if (alarm[2] < 0)`.  This way the alarm will run once it is set because it has to finish before going back to `-1`.  It won't run a second time as we will be changing levels.
+
+![set alarm 2 three seconds out](images/addAlarm2Game.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Press the <kbd>Add Event</kbd> and select an **Alarm | Alarm2** event. Now switch rooms to `rm_win`.
+
+![go to room win in alarm 2](images/alarmGoToWin2.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/winTextDraw.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
