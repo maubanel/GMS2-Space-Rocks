@@ -8,7 +8,7 @@ This is the start of creating a **Asteroids** 'like' video game.  It will be a s
 
 * Tested on GameMake Studio2.3.5.589
 * [GitHub Account](https://github.com) (free)
-* GitHub Desktop(https://desktop.github.com)
+* [GitHub Desktop](https://desktop.github.com)
 
 <br>
 
@@ -26,8 +26,8 @@ This is the start of creating a **Asteroids** 'like' video game.  It will be a s
 <kbd></kbd> &nbsp;&nbsp; [Front End](game-loop/README.md#user-content-front-end) <br>
 <kbd></kbd> &nbsp;&nbsp; [Score](score/README.md#user-content-score) <br>
 <kbd></kbd> &nbsp;&nbsp; [Lives, Winning and Losing](lives/README.md#user-content-lives-winning-and-losing) <br>
-<kbd></kbd> &nbsp;&nbsp; [Launch Waves](lives/README.md#user-content-lives-winning-and-losing) <br>
-<kbd></kbd> &nbsp;&nbsp; [Audio](lives/README.md#user-content-lives-winning-and-losing) <br>
+<kbd></kbd> &nbsp;&nbsp; [Launch Waves](waves/README.md#user-content-launch-waves) <br>
+<kbd></kbd> &nbsp;&nbsp; [Audio](audio/README.md#user-content-audio) <br>
 
  
 
