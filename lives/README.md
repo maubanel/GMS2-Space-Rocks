@@ -154,6 +154,8 @@ Now we will put in a win condition for testing for now.  You will need to finish
 
 Now we need to trigger an alarm 3 seconds in the futue.  The issue with **alarms** in step events is that if the condition runs every frame (so if the next frame, the score is still => 500) then it will set the alarm again ahead 3 seconds.  So the alarm will never ring (like hitting snooze every frame).  So the **alarm** starts at `-1` then we set it to 3.  So we can put an `if (alarm[2] < 0)`.  This way the alarm will run once it is set because it has to finish before going back to `-1`.  It won't run a second time as we will be changing levels.
 
+We also need to restart the game if the player presses the enter key.  This is **exaclty** the same as when the player is in the lose screen.  So we can just add an **or** condition so that the game restarts when a player presses `vk_enter` in either the lose or win screen.
+
 ![set alarm 2 three seconds out](images/addAlarm2Game.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
@@ -168,7 +170,7 @@ Press the <kbd>Add Event</kbd> and select an **Alarm | Alarm2** event. Now switc
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
-Open up **obj_game | Draw** script and add logic for drawing text to the win screen.  Draw `You Win` in the title font in lime.  Draw the final score and instructions for how to continue in the regular low res white font.
+Open up **obj_game | Draw** script and add logic for drawing text to the win screen.  WHen in the `rm_win` screen draw `You Win` in the title font in lime.  Draw the final score and instructions for how to continue in the regular low res white font.
 
 ![draw win text](images/winTextDraw.png)
 
