@@ -144,7 +144,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now we will put in a win condition for testing for now.  You will need to finish it at the end when you complete the waves. Open up **obj_game| Step** and add to the bottom a check for `rm_game` then see if the score is equal or above 500.
+
+![obj_game win condition](images/winGame.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
