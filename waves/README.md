@@ -78,7 +78,7 @@ We will launch the rocks from negative half a sprite height from the top for lau
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now even though we are off to the left and the top if we go in the opposite direction the rock will trigger `move_wrap()` and go in the other side.  
+Now even though we are off to the left and the top if we go in the opposite direction the rock will trigger `move_wrap()` and go in the other side.  So we can point the rock to inside the room and come from the top or left.  We can also point it away from the room and come from the bottom or right hand side. Please try and avoid using orthoganal angles such as 0°, 90°, 180° or 270° or any an7 angle within a few degrees of these.  This will make the rocks move in the same position every time and will not look realistic or correct.
 
 ![angle diagram for launching rocks](images/launchAngle.png)
 
