@@ -210,13 +210,20 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. L
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+So all previous times for alarms and waves are off.  We don't need to make changes as we tuned them to 'feel' right.  We can just convert our math to divide or multiply by 60 to get a value in seconds.  Here is the changed times for the waves which matches our timer.
+
+![all times are halved](images/timingChange.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+Since we are in options lets also change the **Title** to `Space Rocks`.  If you are on **Windows** or **Mac** pick the correct set of options. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and you should see the new name.
+
+![change title to space rocks](images/changeTitle.png)
+
+
+![new title in game](images/spaceRocksTitle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
