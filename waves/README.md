@@ -160,6 +160,7 @@ if (timeline_position >= 5400 && !instance_exists(obj_rock))
     }
 }
 ```
+You can add the above later on when you figure out when you launch your last wave!  For now we can just comment it out.
 
 ![remove win condition from obj_game](images/objGameStepWInCondition.png)
 
