@@ -80,6 +80,8 @@ We will launch the rocks from negative half a sprite height from the top for lau
 
 Now even though we are off to the left and the top if we go in the opposite direction the rock will trigger `move_wrap()` and go in the other side.  So we can point the rock to inside the room and come from the top or left.  We can also point it away from the room and come from the bottom or right hand side. Please try and avoid using orthoganal angles such as 0°, 90°, 180° or 270° or any an7 angle within a few degrees of these.  This will make the rocks move in the same position every time and will not look realistic or correct.
 
+I find for going the opposite direction that the sprite is not half a height or width away but a full height or width, as some of the sprite may show on the other side first.  This will take some experimentation.
+
 ![angle diagram for launching rocks](images/launchAngle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
@@ -88,15 +90,17 @@ Now even though we are off to the left and the top if we go in the opposite dire
 
 I want to launch two large rocks at the player offset by a short amount of time.  I want to give them time to get used to the controls and playing the game.  I am assuming they have never played a game like this before.  So I will not hit them on the first two waves.  I can only make this assumption at this first ave as the player starts in the middle.  In any future waves I will not know where the player is located when launching.
 
-The first is in the top left corner of the screen which makes it an x_pos of 0 and y_pos of 0.  An angle of -45 woudl hit the player and we want to miss them so we launch it as -30 degrees at its default speed so we multiply it by 1.
+Open up **tl_asteroid** and press the <kbd>Add</kbd> button.  Set the moment at `15` (in frames, so half a second).  
 
-![alt_text](images/spawnFirstRock.png)
+![spawn firts rock at timeline moment 15](images/spawnFirstRock.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now when you get to the game you should see the rock spawn!
+
+![alt_text](images/FirstTimelineSpawn.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
