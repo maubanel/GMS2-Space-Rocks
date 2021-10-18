@@ -135,7 +135,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 Open up **obj_game | Step** event script and remove the win condition by commenting it out. Lets say that your last wave is at 3 minutes (60 seconds * 3 minutes * 30 frames/second 5,400 frames), we can check for our win condition:
 
-```
+```gml
 // WIN CONDITION
 // Check to see if our last wave has launched and no rocks are left in level
 if (timeline_position >= 5400 && !instance_exists(obj_rock))
