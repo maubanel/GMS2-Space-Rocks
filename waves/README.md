@@ -106,7 +106,11 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Now that we are spawning rocks on the **timeline** we can adjust the starting speed. So at the begining of the game we can have a speed of 1, 2 and 4.  But at the end we can increase it to our likeing (such as 3, 6 and 12).  Lets change the hard coding of the speeds of the medium and small and just double it instead.
+
+Notice I have using `*=`.  This saves space and is this: ``
+
+![double speed of rocks when destroyed](images/rockSpeedAdjustment.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
