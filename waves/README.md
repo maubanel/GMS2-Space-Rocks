@@ -116,14 +116,18 @@ Notice I have using `*=`.  This saves space you can replace this: `small_rock.sp
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **tl_asteroid** and press the <kbd>Add</kbd> button and set the **Moment** to `220` (7.3 seconds). This time we will spawn the second rock 3/4 of the screen to the right, at its full negative sprite height and this time we will spawn the medium rock.  We will set the speed to 2 (our starting speed for this rock, twice the large one) and send it at 80°. This will send it coming up from the bottom of the screen.  
+
+![spawn second rock in timeline](images/spawnSecondRock.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now when you play a second rock launches and comes up from the bottom of the screen.
+
+![second rock launches in game](images/TwoRocksLaunch.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
