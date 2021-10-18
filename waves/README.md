@@ -231,7 +231,7 @@ Since we are in options lets also change the **Display Name** to `Space Rocks`. 
 
 That's it, all you have to do is craft a MUCH longer experience.  Try and make a level with some escalation.  Here are some ideas to try:
 
-1.  Make it 5 minutes long.
+1.  Make it 3 minutes or longer by adding more waves.
 2.  Make the rocks spawn faster and faster
 3.  Can you check before a moment spawns if the player has cleared enough rocks?  Why spawn more rocks of the player hasn't progressed far enough?  This is the key to difficulty tuning is responding to player progress.
 4. When respawning the player can you avoid spawning when a rock is in the way?
