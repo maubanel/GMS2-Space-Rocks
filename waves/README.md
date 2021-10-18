@@ -168,7 +168,11 @@ You can add the above later on when you figure out when you launch your last wav
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+So our third wave will force the player to move unless they want to die.  We will send a rock right at the center.
+
+In this case we will send two rocks at 10 seconds or 300 frames (10 * 30 frames/second).
+
+![send third wave](images/SecondWaveAsteroids.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
