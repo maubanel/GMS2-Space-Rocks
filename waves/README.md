@@ -133,7 +133,20 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Open up **obj_game | Step** event script and remove the win condition by commenting it out. Lets say that your last wave is at 3 minutes (60 seconds * 3 minutes * 30 frames/second 5,400 frames), we can check for our win condition:
+Open up **obj_game | Step** event script and remove the win condition by commenting it out. Lets say that your last wave is at 3 minutes (60 seconds * 3 minutes * 30 frames/second 5,400 frames), we can check for our win condition.  We also want ot make sure that you have shot all the rocks in the game.  So we will use **[instance_exists(obj)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/instance_exists.htm)**.
+
+> You can give it an object_index to check for, in which case this function will return true if any active instances of the specified object exist in the current room. - GameMaker Manual
+
+So we want to check to see if there are **no** rocks left so we can invert the boolean return of the function by using the `not` logical operator or `!`.
+
+So if there are no rocks left `instance_exists(obj_rock)` would return false.  So since an `if` statement with the `&&` (and) operator looks for both conditions to be true we can invert the boolean by putting a `!` in front of the function we want to invert.  `!instance_exists(obj_rock)` will return the opposite so it will return true.
+
+| Rocks in Room | instance_exist(obj_rock) | !instance_exist(obj_rock) |   |   |
+|---------------|--------------------------|---------------------------|---|---|
+| Yes           | true                     | false                     |   |   |
+| No            | false                    | true                      |   |   |
+|               |                          |                           |   |   |
+
 
 ```gml
 // WIN CONDITION
