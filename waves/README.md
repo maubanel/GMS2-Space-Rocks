@@ -116,7 +116,7 @@ Notice I have using `*=`.  This saves space you can replace this: `small_rock.sp
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-Open up **tl_asteroid** and press the <kbd>Add</kbd> button and set the **Moment** to `220` (7.3 seconds). This time we will spawn the second rock 3/4 of the screen to the right, at its full negative sprite height and this time we will spawn the medium rock.  We will set the speed to 2 (our starting speed for this rock, twice the large one) and send it at 80°. This will send it coming up from the bottom of the screen.  
+Open up **tl_asteroid** and press the <kbd>Add</kbd> button and set the **Moment** to `220` (7.3 seconds or 220/30). This time we will spawn the second rock 3/4 of the screen to the right, at its full negative sprite height and this time we will spawn the medium rock.  We will set the speed to 2 (our starting speed for this rock, twice the large one) and send it at 80°. This will send it coming up from the bottom of the screen.  
 
 ![spawn second rock in timeline](images/spawnSecondRock.png)
 
@@ -133,7 +133,16 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **obj_game | Step** event script and remove the win condition by commenting it out. Lets say that your last wave is at 3 minutes (60 seconds * 3 minutes * 30 frames/second 5,400 frames), we can check for our win condition:
+
+```
+if (timeline_position >= 5400 && !instance_exists(obj_rock))
+{
+    
+}
+```
+
+![remove win condition from obj_game](images/objGameStepWInCondition.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
