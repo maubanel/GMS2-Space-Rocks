@@ -194,13 +194,17 @@ Now if the player stays in the center then the third wave will take care of them
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now lets draw seconds up on the screen which will make it easier to know the timing of when rocks are being launched.  Open up **obj_game | Draw** script and add divide the timeline position by the framerate (frames per second).
+
+![draw time to hud](images/drawTime.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Look at the game with the new timer.  Look at when the waves launch, they are happening at the wrong time, they seem to be launching twice as fast.
+
+![timer in game showing our game is running at 60fps](images/TimerInGame.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
