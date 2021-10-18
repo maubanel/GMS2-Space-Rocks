@@ -54,13 +54,13 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Y
 Now each object has a timeline. So we will use our **obj_game** and use its *timeline*.  It is not an object that the player interacts with and is not destroyed so we know the timeline will keep playing.  
 
 
-Now the **timeline** you just created is not linked to any boject yet.  Just like our sprite has `sprite_index` to set a **new sprite**, we also have a `timeline_index` varible to point to a specific timeline. It's default value is -1 which means that it is not set to any timeline.  We set it simply by
+Now the **timeline** you just created is not linked to any boject yet.  Just like our sprite has `sprite_index` to set a **new sprite**, we also have a **[timeline_index](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Timelines/timeline_index.htm)** varible to point to a specific timeline. It's default value is -1 which means that it is not set to any timeline.  We set it simply by
 `timeline_index = tl_asteroid`.
 
 
-We want to start from the begining of the timeline. There is a variable called `timeline_position`.  We will set it to the begining (just in case it is not there) with `timeline_position = 0`.
+We want to start from the begining of the timeline. There is a variable called **[timeline_position](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Timelines/timeline_position.htm)**.  We will set it to the begining (just in case it is not there) with `timeline_position = 0`.
 
-Finally we have got to tell the timeline to start running (it defaults to off or not running). There is a boolean variable called `timeline_running`.  We will set it to `true`.
+Finally we have got to tell the timeline to start running (it defaults to off or not running). There is a boolean variable called **[timeline_running](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Timelines/timeline_running.htm)**.  We will set it to `true`.
 
 So open **obj_game: Room Start** event and add to the very bottom the above for *only* the **rm_game**.
 
