@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Now we would like to launch a wave of rocks at the player.  We could use alarms to do this but are restricted to 12 alarms per object.  There is another **GameMaker** resource that is made for spawning objects like asteroids called **[timelines()])(https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Timelines/Timelines.htm)**.  
+Now we would like to launch a wave of rocks at the player.  We could use alarms to do this but are restricted to 12 alarms per object.  There is another **GameMaker** resource that is made for spawning objects like asteroids called **[timelines()](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Timelines/Timelines.htm)**.  
 
 > Timelines are a powerful mechanism for controlling events in your game, and are based on "moments", where a "moment" is simply a single game step. These timelines are generally created from the Asset Browser using the Timeline Editor in a similar way to an object, ie: you create a timeline, then in each moment that you require it to perform an action you add some code for it to perform. Once created, you can then stop, start, and manipulate timelines through code. You can even modify individual moments by defining a script function and adding it into the timeline dynamically from a controller object (for example), making this a very powerful and versatile tool when creating your games. - GameMaker Manual
 
