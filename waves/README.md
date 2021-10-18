@@ -239,6 +239,7 @@ That's it, all you have to do is craft a MUCH longer experience.  Try and make a
 5.  Can you add the spaceship that flies and attacks your ship occasionally?
 6.  What about adding a teleport button as a risk reward to teleport to another spot (maybe into or close to a rack)
 7.  What about adding a shields pickup?
+9. Can you make sure that the player doesn't clear all the rocks and is left in an empty level waiting for the next wave?
 
 There are many other things you can do, have fun.  Next up we will finish with adding audio.
 
