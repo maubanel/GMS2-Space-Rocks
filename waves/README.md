@@ -86,7 +86,11 @@ Now even though we are off to the left and the top if we go in the opposite dire
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+I want to launch two large rocks at the player offset by a short amount of time.  I want to give them time to get used to the controls and playing the game.  I am assuming they have never played a game like this before.  So I will not hit them on the first two waves.  I can only make this assumption at this first ave as the player starts in the middle.  In any future waves I will not know where the player is located when launching.
+
+The first is in the top left corner of the screen which makes it an x_pos of 0 and y_pos of 0.  An angle of -45 woudl hit the player and we want to miss them so we launch it as -30 degrees at its default speed so we multiply it by 1.
+
+![alt_text](images/spawnFirstRock.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
