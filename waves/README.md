@@ -229,7 +229,21 @@ Since we are in options lets also change the **Display Name** to `Space Rocks`. 
 
 ##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+That's it, all you have to do is craft a MUCH longer experience.  Try and make a level with some escalation.  Here are some ideas to try:
+
+1.  Make it 5 minutes long.
+2.  Make the rocks spawn faster and faster
+3.  Can you check before a moment spawns if the player has cleared enough rocks?  Why spawn more rocks of the player hasn't progressed far enough?  This is the key to difficulty tuning is responding to player progress.
+4. When respawning the player can you avoid spawning when a rock is in the way?
+5.  Can you add the spaceship that flies and attacks your ship occasionally?
+6.  What about adding a teleport button as a risk reward to teleport to another spot (maybe into or close to a rack)
+7.  What about adding a shields pickup
+
+There are many other things you can do, have fun.  Next up we will finish with adding audio.
+
+Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
+
+![save, quit, commit and push to github](images/GitHub.png)
 
 ___
 
