@@ -141,7 +141,7 @@ So we want to check to see if there are **no** rocks left so we can invert the b
 
 So if there are no rocks left `instance_exists(obj_rock)` would return false.  So since an `if` statement with the `&&` (and) operator looks for both conditions to be true we can invert the boolean by putting a `!` in front of the function we want to invert.  `!instance_exists(obj_rock)` will return the opposite so it will return true.
 
-| Rocks in Room | instance_exist(obj_rock) | !instance_exist(obj_rock) | 
+| Rocks in Room | instance_exists(obj_rock) | !instance_exists(obj_rock) | 
 |---------------|--------------------------|---------------------------|
 | Yes           | true                     | false                     |
 | No            | false                    | true                      |
