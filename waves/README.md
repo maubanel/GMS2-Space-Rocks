@@ -144,8 +144,7 @@ So if there are no rocks left `instance_exists(obj_rock)` would return false.  S
 | Rocks in Room | instance_exist(obj_rock) | !instance_exist(obj_rock) | 
 |---------------|--------------------------|---------------------------|
 | Yes           | true                     | false                     |
-| No            | false                    | true                      |
-|               |                          |                           |
+
 
 
 ```gml
