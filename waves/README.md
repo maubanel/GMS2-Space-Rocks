@@ -186,7 +186,9 @@ Open up **tl_asteroid** and press the <kbd>Add</kbd> button and set the **Moment
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now if the player stays in the center then the third wave will take care of them. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game.
+
+![third wave kills player if they stay in center](images/ThirdWaveKills.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
