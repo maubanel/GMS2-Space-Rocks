@@ -232,12 +232,13 @@ Since we are in options lets also change the **Display Name** to `Space Rocks`. 
 That's it, all you have to do is craft a MUCH longer experience.  Try and make a level with some escalation.  Here are some ideas to try:
 
 1.  Make it 3 minutes or longer by adding more waves in **tl_asteroid**.
-2.  Make the rocks spawn faster and faster
+2.  Make sure you escalate and make it harder as you move through the level/game.
+2.  Make the rocks spawn faster and faster.
 3.  Can you check before a moment spawns if the player has cleared enough rocks?  Why spawn more rocks of the player hasn't progressed far enough?  This is the key to difficulty tuning is responding to player progress.
 4. When respawning the player can you avoid spawning when a rock is in the way?
 5.  Can you add the spaceship that flies and attacks your ship occasionally?
 6.  What about adding a teleport button as a risk reward to teleport to another spot (maybe into or close to a rack)
-7.  What about adding a shields pickup
+7.  What about adding a shields pickup?
 
 There are many other things you can do, have fun.  Next up we will finish with adding audio.
 
