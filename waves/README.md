@@ -70,7 +70,7 @@ So open **obj_game: Room Start** event and add to the very bottom the above for 
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-We will launch the rocks from negative half a sprite height from the top for launching from the bottom or top of the screen and negative half a sprite width from the left to launch from the left or right.
+We will launch the rocks from negative half a sprite height from the top for launching from the bottom or top of the screen and negative half a sprite width from the left to launch from the left or right. This will not be close enough to trigger a move_wrap as it is at a full width or height of the sprite.  We have to be careful of whether we are launching a large, small or medium rock as this will affect our position.  It is best to use variables to avoid bugs which is why we are using `sprite_get_width` and `sprite_get_height`.
 
 ![launch position diagram](images/launchPosition.png)
 
@@ -78,7 +78,9 @@ We will launch the rocks from negative half a sprite height from the top for lau
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now even though we are off to the left and the top if we go in the opposite direction the rock will trigger `move_wrap()` and go in the other side.  
+
+![angle diagram for launching rocks](images/launchAngle.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
