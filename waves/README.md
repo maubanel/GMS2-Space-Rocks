@@ -218,7 +218,7 @@ So all previous times for alarms and waves are off.  We don't need to make chang
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
-Since we are in options lets also change the **Title** to `Space Rocks`.  If you are on **Windows** or **Mac** pick the correct set of options. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and you should see the new name.
+Since we are in options lets also change the **Display Name** to `Space Rocks`.  If you are on **Windows** or **Mac** pick the correct set of options. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game and you should see the new name.
 
 ![change title to space rocks](images/changeTitle.png)
 
