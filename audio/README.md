@@ -15,7 +15,7 @@ After you have completed the game loop and added escalation, we can put the fini
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-Lets add a shooting sound effect.  Download the [snd_zap.ogg](../Assets/snd_zap.ogg) file.  Right click on **Sounds** and select **Create Sound**.  Call the file `snd_zap`.  Press the <kbd>...</kbd> button and select the file you just downloaded **snd_zap.ogg**. Press the <kbd>Play</kbd> button and hear the sound it should make.
+Lets add a shooting sound effect.  Download the [snd_zap.ogg](../Assets/snd_zap.ogg) file.  *Right click* on **Sounds** and select **Create Sound**.  Call the file `snd_zap`.  Press the <kbd>...</kbd> button and select the file you just downloaded **snd_zap.ogg**. Press the <kbd>Play</kbd> button and hear the sound it should make.
 
 ![download snd_zap and make into an audio file in gamemaker](images/zapSound.png)
 
@@ -35,6 +35,9 @@ We will set the **index** to `snd_zap`, the **priority** to `1` (we have more th
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Lets add a shooting sound effect.  Download the [snd_die.ogg](../Assets/snd_die.ogg) file. * Right click* on **Sounds** and select **Create Sound**.  Call the file `snd_zap`.  Press the <kbd>...</kbd> button and select the file you just downloaded **snd_ide.ogg**. Press the <kbd>Play</kbd> button and hear the sound it should make when a rock of the spaceship is killed.
+
 
 ![alt_text](images/.png)
 
