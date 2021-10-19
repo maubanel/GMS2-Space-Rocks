@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+After you have completed the game loop and added escalation, we can put the finishing touch with adding audio to the game.
 
 <br>
 
@@ -14,6 +14,8 @@ Chapter introduction here.
 
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
+
+Lets add a shooting sound effect.  Download the [snd_zap.ogg](../Assets/snd_zap.ogg) file.  Right click on **Sounds** and select **Create Sound**.  
 
 ![alt_text](images/.png)
 
