@@ -181,8 +181,9 @@ That's it for audio and the game. Select the **File | Save Project** then press 
 
 ![alt_text](images/.png)
 
-___
-
+| `gms2.space.rocks`\|`THE END`| 
+| :--- |
+| **That's All Folks!** That's it for space rocks. |
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
