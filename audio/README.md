@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-After you have completed the game loop and added escalation, we can put the finishing touch with adding audio to the game.
+After you have completed the game loop and added escalation, we can put the finishing touch with adding audio to the game. 
 
 <br>
 
@@ -15,9 +15,9 @@ After you have completed the game loop and added escalation, we can put the fini
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-Lets add a shooting sound effect.  Download the [snd_zap.ogg](../Assets/snd_zap.ogg) file.  Right click on **Sounds** and select **Create Sound**.  
+Lets add a shooting sound effect.  Download the [snd_zap.ogg](../Assets/snd_zap.ogg) file.  Right click on **Sounds** and select **Create Sound**.  Call the file `snd_zap`.  Press the <kbd>...</kbd> button and select the file you just downloaded **snd_zap.ogg**. Press the <kbd>Play</kbd> button and hear the sound it should make.
 
-![alt_text](images/.png)
+![download snd_zap and make into an audio file in gamemaker](images/zapSound.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
