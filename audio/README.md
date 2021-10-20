@@ -104,24 +104,26 @@ So we are checking for the inverse by looking for `!audio_is_playing(snd_song)` 
 
 ![play song in room start of obj_game](images/playSong.png)
 
-Lets add a win and lose track to the game.  Download the [snd_win.ogg](../Assets/snd_win.ogg) and [snd_lose.ogg](../Assets/snd_lose.ogg) files. *Right click* on **Sounds** and select **Create Sound**.  Call the file `snd_win` on the first and `snd_lose` on the second.  Press the two <kbd>...</kbd> button and select the files you just downloaded **snd_win.ogg** & **snd_win.lose**. 
-
-![add a snd_win and snd_lose ogg to the game](images/winLoseSounds.png)
-
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-You should now have a proper win condition so go to the **obj_game | Step** event and stop playing the song. Then we will start playing the win track in the win room. I uncommented mine back out just so it will play.
-
-![stop playing audio](images/reactivateWinCondition.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice that we have music that goes from room to room!
 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+Lets add a win and lose track to the game.  Download the [snd_win.ogg](../Assets/snd_win.ogg) and [snd_lose.ogg](../Assets/snd_lose.ogg) files. *Right click* on **Sounds** and select **Create Sound**.  Call the file `snd_win` on the first and `snd_lose` on the second.  Press the two <kbd>...</kbd> button and select the files you just downloaded **snd_win.ogg** & **snd_win.lose**. 
+
+![add a snd_win and snd_lose ogg to the game](images/winLoseSounds.png)
+
+You should now have a proper win condition so go to the **obj_game | Step** event and stop playing the song. Then we will start playing the win track in the win room. I uncommented mine back out just so it will play.
+
+![stop playing audio](images/reactivateWinCondition.png)
 
 Now open up **obj_game | Alarm2** where we switch to the win room and play the win song and don't have it loop.
 
