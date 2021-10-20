@@ -35,7 +35,7 @@ We will set the **index** to `snd_zap`, the **priority** to `1` (we have more th
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Press the <kbd>Space Bar</kbd> and you should have a shooting sound.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Press the <kbd>Space Bar</kbd> and you should have a shooting sound. Make sure you unmute the video to hear what it should sound like.
 
 https://user-images.githubusercontent.com/5504953/138128316-6f23ebba-bcbe-4fe1-83b9-36b10ee8c986.mp4
 
