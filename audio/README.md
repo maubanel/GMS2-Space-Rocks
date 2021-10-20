@@ -87,7 +87,7 @@ https://user-images.githubusercontent.com/5504953/138130661-289f0c11-0398-4d6a-a
 
 Lets add some music to the game.  Download the [snd_song.ogg](../Assets/snd_song.ogg) file. *Right click* on **Sounds** and select **Create Sound**.  Call the file `snd_song`.  Press the <kbd>...</kbd> button and select the file you just downloaded **snd_song.ogg**. 
 
-![alt_text](images/.png)
+![download and import snd_song.ogg](images/sndSong.png)
 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
