@@ -131,6 +131,7 @@ You should now have a proper win condition so go to the **obj_game | Step** even
 
 ![stop playing audio](images/reactivateWinCondition.png)
 
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
@@ -139,26 +140,49 @@ Now open up **obj_game | Alarm2** where we switch to the win room and play the w
 
 ![alt_text](images/playWinSong.png)
 
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you should hear the win music when the win condition is achieved.
 
+
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+Now add the lose sound when you go to the **You Lose!** screen. Open up **obj_game | Alarm1** and add this before changing rooms.
+
+![play lose sound in obj_game alarm1](images/alarm1LoseSound.png)
 
 Open up **obj_ship | Collision | obj_rock** and kill the song when the player has run out of lives.
 
 ![kill song when player loses](images/objShipDiesStopSongLose.png)
 
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you should hear the lose music when you run out of lives.
+
+https://user-images.githubusercontent.com/5504953/138133539-872be4c2-a614-4849-8e35-352dc6b6eaef.mp4
+
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now add the lose sound when you go to the **You Lose!** screen. Open up **obj_game | Alarm1** and add this before changing rooms.
+
+That's it for audio and the game. Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
+
+![save, quit, commit and push to github](images/GitHub.png)
+
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
 
 ![play lose sound in obj_game alarm1](images/alarm1LoseSound.png)
 
