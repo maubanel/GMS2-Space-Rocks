@@ -111,6 +111,7 @@ So we are checking for the inverse by looking for `!audio_is_playing(snd_song)` 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice that we have music that goes from room to room!
 
+https://user-images.githubusercontent.com/5504953/138132003-3ca06d00-e704-47ea-aa56-147ca35a8f89.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
