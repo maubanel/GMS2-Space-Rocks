@@ -182,8 +182,6 @@ https://user-images.githubusercontent.com/5504953/138133539-872be4c2-a614-4849-8
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you should hear the lose music when you run out of lives.
-
 That's it for audio and the game. Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
 
 ![save, quit, commit and push to github](images/GitHub.png)
