@@ -147,6 +147,8 @@ Now open up **obj_game | Alarm2** where we switch to the win room and play the w
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you should hear the win music when the win condition is achieved.
 
 
+https://user-images.githubusercontent.com/5504953/138135502-d3daee86-30b9-4c4d-901a-5c67c2907df9.mp4
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
