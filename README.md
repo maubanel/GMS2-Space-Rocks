@@ -6,6 +6,24 @@ This tutorial is intended for those wanting an introduction to <i>GameMaker Stud
 
 This is the start of creating a **Asteroids** 'like' video game.  It will be a simpler version of the original introducing basic game design and development concepts.
 
+## Introduction
+This is based on [GMS2 First Look](https://github.com/maubanel/GMS2-First_Look) and is meant as a follow up/companion to **Space Rocks - GML Tutorial** which is a freely available tutorial at [YoYo Games Marketplace](https://marketplace.yoyogames.com/assets/7423/space-rocks-gml).  This will go into the development of a game from scratch.
+
+In this tutorial:
+
+* Creating art assets
+* Space ship vehicle physics
+* Shooting
+* Animating obstacles
+* Audio sound effects
+* Add variables and comments to all scripts without changing functionality
+* Add flame behind ship when accelerating
+* Add ship explosion animation
+* Change player death and end game timing
+* Add friction and maximum speed
+* Use timeline for spawning rocks and add custom spawning script
+* Trigger waves either by time or by score
+
 * Tested on GameMake Studio2.3.5.589
 * [GitHub Account](https://github.com) (free)
 * [GitHub Desktop](https://desktop.github.com)
@@ -38,23 +56,6 @@ Extra walk through add time in room
 ## License
 Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
 
-## Introduction
-This is based on [GMS2 First Look](https://github.com/maubanel/GMS2-First_Look) and is meant as a follow up/companion to **Space Rocks - GML Tutorial** which is a freely available tutorial at [YoYo Games Marketplace](https://marketplace.yoyogames.com/assets/7423/space-rocks-gml).  This will go into the development of a game from scratch.
-
-In this tutorial:
-
-* Creating art assets
-* Space ship vehicle physics
-* Shooting
-* Animating obstacles
-* Audio sound effects
-* Add variables and comments to all scripts without changing functionality
-* Add flame behind ship when accelerating
-* Add ship explosion animation
-* Change player death and end game timing
-* Add friction and maximum speed
-* Use timeline for spawning rocks and add custom spawning script
-* Trigger waves either by time or by score
 
 ## Controls
 * Left and Right arrow rotate the ship
