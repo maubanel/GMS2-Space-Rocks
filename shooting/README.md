@@ -65,7 +65,7 @@ Lets look at **[keyboard_check_pressed(key)](https://manual.yoyogames.com/GameMa
 
 Right now the bullet is being created every frame.  By changing to `keyboard_check_pressed(key)` the bullet will only launch once per every button press.  So you can only launch bullets as quickly as you can press the key.
 
-If you cannot fire a bullet while turning left or right try reassigning the button to the S key for shooting.  You would do this with `keyboard_check_pressed(ord("S")));`.
+If you cannot fire a bullet while turning left or right try reassigning the button to the S key for shooting.  You would do this with `keyboard_check_pressed(ord("S")))`.
 
 ![change keyboard check to keyboard_check_pressed](images/keyboardPressed.png)
 
