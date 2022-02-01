@@ -15,7 +15,7 @@ Lets start by creating the spaceship artwork and getting the physics locked down
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-Open up the **Rooms** folder and rename **Room1** to `rm_game`.  Change the **Properties | Height** to `1024` and the **Properties | Width** to `728`.
+Open up the **Rooms** folder and rename **Room1** to `rm_game`.  Change the **Properties | Height** to `768` and the **Properties | Width** to `1024`.
 
 ![rename room to rm_game](images/renameRoomGame.png)
 
