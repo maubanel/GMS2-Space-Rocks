@@ -23,9 +23,13 @@ Lets look at implementing a start screen. Lets have some rocks floating in the b
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-*Right click* on **Objects** and select **New | Object** and name it `obj_game`. Press the <kbd>Add Event</kbd> and select a **Other | Room Start** event. This will run once each time a room is changed.  This object will be used to control all game states.
+*Right click* on **Objects** and select **New | Object** and name it `obj_game`. Press the <kbd>Add Event</kbd> and select a **Other | Room Start** event. This will run once each time a room is changed.  This object will be used to control all game states. 
 
 ![add obj_game with a room start event](images/objGameRoomStart.png)
+
+Drag **obj_game** into **rm_front_end**.
+
+![add obj_game to room fe](images/objGameRoomStart.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
