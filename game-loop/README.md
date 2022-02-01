@@ -29,7 +29,7 @@ Lets look at implementing a start screen. Lets have some rocks floating in the b
 
 Drag **obj_game** into **rm_front_end**.
 
-![add obj_game to room fe](images/objGameRoomStart.png)
+![add obj_game to room fe](images/addGameToFE.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
