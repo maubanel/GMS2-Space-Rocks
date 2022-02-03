@@ -51,7 +51,7 @@ We need to do this because we have to open **obj_rock | Collision | obj_bullet**
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now shoot all the rocks and you can get up to 620 points!
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now shoot all the rocks and you can get up to 520 points!
 
 ![play the game shoot rocks see score advance](images/ScoringInGame.gif)
 
