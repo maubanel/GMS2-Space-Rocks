@@ -95,18 +95,20 @@ Open up **obj_game | Draw** and add text for the lose screen. Align a red title 
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now lose the game on purpose.  It works, but it is too sudden on the final death and we should delay the transition to see the ship die with another alarm set to 4 seconds.
+Open up **obj_ship | Collision | obj_rock** and paste the code to change rooms and replace it by calling **ALarm1** on `obj_game`.  Again the ship will die so we have to call an alarm in **obj_game** and we have already used the first **Alarm0** slot. We also want to reflect 0 lives at this point as you have run out, so subtract one more life.
 
-![alt_text](images/loseGame.gif)
+![call alarm to change to lose room](images/objShipAlarm1.png)
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Open up **obj_ship | Collision | obj_rock** and paste the code to change rooms and replace it by calling **ALarm1** on `obj_game`.  Again the ship will die so we have to call an alarm in **obj_game** and we have already used the first **Alarm0** slot. We also want to reflect 0 lives at this point as you have run out, so subtract one more life.
 
-![call alarm to change to lose room](images/objShipAlarm1.png)
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now lose the game on purpose.  It works, but it is too sudden on the final death and we should delay the transition to see the ship die with another alarm set to 4 seconds.
+
+![alt_text](images/loseGame.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
