@@ -24,10 +24,7 @@ In this tutorial:
 * Use timeline for spawning rocks and add custom spawning script
 * Trigger waves either by time or by score
 
-## Software Needed 
-* Tested on GameMake Studio2.3.5.589
-* [GitHub Account](https://github.com) (free)
-* [GitHub Desktop](https://desktop.github.com)
+Git git s
 
 <br>
 
