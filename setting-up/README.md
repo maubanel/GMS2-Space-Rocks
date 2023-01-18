@@ -15,9 +15,9 @@ Lets get started with setting up version control and starting the project.
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-Go to [New GML Project](https://github.com/maubanel/GMS2-Snippets/blob/main/new-gml/README.md#user-content-new-gml-project) and create a project called `Space Rocks`.
+Pres the <kbd>New</kbd> then the <kbd>New Blank</kbd> to create a new blank project. Call the project `SpaceRocks`. Put it in the same folder that contains your **Perforce** repository. It should appear in the same folder as the first project **Getting Started**. Select this directory by pressing the <kbd>Open</kbd> button.
 
-![start gamemaker studio 2 project called Space Rocks](images/SpaceRocksDirectory.png)
+![start gamemaker studio 2 project called Space Rocks](images/newProject.png)
 
 ![](../images/line2.png)
 
