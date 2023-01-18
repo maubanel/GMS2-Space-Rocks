@@ -15,13 +15,15 @@ Lets start by creating the spaceship artwork and getting the physics locked down
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-Open up the **Rooms** folder and rename **Room1** to `rm_game`.  Change the **Properties | Height** to `768` and the **Properties | Width** to `1024`.
-
-![rename room to rm_game](images/renameRoomGame.png)
+Now before we can work in **GameMaker** again, we need to make sure the files are writable.  Perforce locks all files as read only so essentially you will not be able to save any work.  It is **VERY IMPORTANT** that the first thing we do is check out all the files to make them **ALL** writable.  Open up **P4V** and select the **SpaceRocks** folder.  Press the <kbd>Check Out</kbd> button.
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+
+Open up the **Rooms** folder and rename **Room1** to `rm_game`.  Change the **Properties | Height** to `768` and the **Properties | Width** to `1024`.
+
+![rename room to rm_game](images/checkOutAllFiles.png)
 
 *Right click* on **Sprites** and select **Create | Sprite** and name it `spr_ship`.  *Press* the <kbd>Resize</kbd> button (four arrows) to change the sprite. *Click* on **Resize Canvas** and change the **Width** and **Height** to `32` by `32`. Press the <kbd>Apply</kbd> button.
 

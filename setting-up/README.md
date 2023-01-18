@@ -90,7 +90,7 @@ Confirm that you have properly uploaded to the **Depot** by selecting the tab an
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - The Spaceship I"> -->
-![Next Up ](images/banner.png)
+![Next Up the spaceship I](images/banner.png)
 
 ![](../images/line.png)
 
