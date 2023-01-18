@@ -47,9 +47,9 @@ Now we want to add all these new files to our **Perforce** server. Open up **P4V
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-You get to your empty repository on **GitHub**.
+Select a **New** changelist and an appropriate message describing what we did.  Press the <kbd>OK</kbd> button.
 
-![empty repository](images/blankRepo.png)
+![empty repository](images/newChangelist.png)
 
 ![](../images/line2.png)
 
