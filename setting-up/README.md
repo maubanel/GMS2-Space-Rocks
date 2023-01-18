@@ -25,17 +25,17 @@ Pres the <kbd>New</kbd> then the <kbd>New Blank</kbd> to create a new blank proj
 
 Press the <kbd>Lets Go</kbd> button to start our new project.
 
-![GitHub desktop accept assignemtn page](images/SelectLetsGo.png)
+![press lets go](images/SelectLetsGo.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-You will now be sent to a message that says the repository is being configured.  Wait a few seconds then press the refresh button.
+Now you should have an empty game with the defaul room!
 
-![press refresh to see repository](images/refreshForLink.png)
+![empty project](images/refreshForLink.png)
 
-![](../images/line2.png)
+![](../images/blankProject.png)
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
