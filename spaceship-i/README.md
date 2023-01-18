@@ -168,7 +168,7 @@ We will be using **[motion_add(direction, speed)](https://manual.yoyogames.com/G
 
 `motion_add(dir, spd)` adds a new force when the condition is met (in this case pressing `vk_up`). This gives the sensation that the ship is moving in a frictionless environment.
 
-So below we are adding an acceleration of the direction the ship is pointing in at a speed of `.2` (the value of the `acceleration` variable).
+So below we are adding an acceleration of the direction the ship is pointing in at a speed of `.2` (the value of the `acceleration` variable). It will only run when you press the **Up** arrow.
 
 ![alt_text](images/motionAdd.png)
 
