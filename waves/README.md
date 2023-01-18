@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Launch Waves
 
 <sub>[previous](../lives/README.md#user-content-lives-winning-and-losing) • [home](../README.md#user-content-gms2-ue4-space-rocks) • [next](../audio/README.md#user-content-audio)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Now we would like to launch a wave of rocks at the player.  We could use alarms to do this but are restricted to 12 alarms per object.  There is another **GameMaker** resource that is made for spawning objects like asteroids called **[timelines()](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Timelines/Timelines.htm)**.  
 
@@ -23,7 +23,7 @@ We will use timelines to spawn the rocks so go to **rm_game** and delete the roc
 
 ![delete rock in rm_game](images/deleteRock.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -31,7 +31,7 @@ Now we added rock spawning on player death to test lives.  We will now remove it
 
 ![delete rock spawning in ship rock collision event](images/deleteRockSpawning.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -39,7 +39,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Y
 
 ![play game no more rocks](images/rockAllGone.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -47,7 +47,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Y
 
 ![add a new timeline called tl_asteroid](images/addTLAsteroid.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
@@ -66,7 +66,7 @@ So open **obj_game: Room Start** event and add to the very bottom the above for 
 
 ![alt_text](images/launchTimeline.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
@@ -74,7 +74,7 @@ We will launch the rocks from negative half a sprite height from the top for lau
 
 ![launch position diagram](images/launchPosition.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -84,7 +84,7 @@ I find for going the opposite direction that the sprite is not half a height or 
 
 ![angle diagram for launching rocks](images/launchAngle.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -94,7 +94,7 @@ Open up **tl_asteroid** and press the <kbd>Add</kbd> button.  Set the moment at 
 
 ![spawn firts rock at timeline moment 15](images/spawnFirstRock.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -102,7 +102,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![alt_text](images/FirstTimelineSpawn.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
@@ -112,7 +112,7 @@ Notice I have using `*=`.  This saves space you can replace this: `small_rock.sp
 
 ![double speed of rocks when destroyed](images/rockSpeedAdjustment.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -120,7 +120,7 @@ Open up **tl_asteroid** and press the <kbd>Add</kbd> button and set the **Moment
 
 ![spawn second rock in timeline](images/spawnSecondRock.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -129,7 +129,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![second rock launches in game](images/TwoRocksLaunch.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -164,7 +164,7 @@ You can add the above later on when you figure out when you launch your last wav
 
 ![remove win condition from obj_game](images/objGameStepWInCondition.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -174,7 +174,7 @@ In this case we will send two rocks at 10 seconds or 300 frames (10 * 30 frames/
 
 ![send third wave](images/SecondWaveAsteroids.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -182,7 +182,7 @@ Open up **tl_asteroid** and press the <kbd>Add</kbd> button and set the **Moment
 
 ![code for third wave](images/thirdWaveMoment.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -190,7 +190,7 @@ Now if the player stays in the center then the third wave will take care of them
 
 ![third wave kills player if they stay in center](images/ThirdWaveKills.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -198,7 +198,7 @@ Now lets draw seconds up on the screen which will make it easier to know the tim
 
 ![draw time to hud](images/drawTime.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -206,7 +206,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. L
 
 ![timer in game showing our game is running at 60fps](images/TimerInGame.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -214,7 +214,7 @@ So all previous times for alarms and waves are off.  We don't need to make chang
 
 ![all times are halved](images/timingChange.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
@@ -225,7 +225,7 @@ Since we are in options lets also change the **Display Name** to `Space Rocks`. 
 
 ![new title in game](images/spaceRocksTitle.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -250,11 +250,11 @@ Select the **File | Save Project** then press **File | Quit** to make sure every
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Audio">
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../lives/README.md#user-content-lives-winning-and-losing)| [home](../README.md#user-content-gms2-ue4-space-rocks) | [next](../audio/README.md#user-content-audio)|
 |---|---|---|

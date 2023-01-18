@@ -24,7 +24,6 @@ In this tutorial:
 * Use timeline for spawning rocks and add custom spawning script
 * Trigger waves either by time or by score
 
-Git git s
 
 <br>
 
@@ -47,8 +46,8 @@ Git git s
 
  
 
-Extra walk through - add flame to back of ship
-Extra walk through add time in room
+<!-- Extra walk through - add flame to back of ship
+Extra walk through add time in room -->
 
 <!-- LICENSE -->
 ## License

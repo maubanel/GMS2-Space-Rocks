@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### The Spaceship II
 
 <sub>[previous](../spaceship-i/README.md#user-content-the-spaceship-i) • [home](../README.md#user-content-gms2-ue4-space-rocks) • [next](../shooting/README.md#user-content-shooting)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Finishing up the movement of the space ship
 
@@ -19,7 +19,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![frictionless ship in game with max speed](images/ShipMaxSpeed.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ Open up **spr_ship | Create** event and add a `ship_friction` variable.  Make su
 
 ![add ship_friction variable](images/shipFriction.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ Open up **obj_ship | Step** event and subtract the **ship_friction** from the **
 
 ![add friction to step](images/addFrictionStep.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +43,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![play game and see final physics](images/FinishedShipPhysics.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
@@ -54,11 +54,11 @@ Select the **File | Save Project** then press **File | Quit** to make sure every
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Shooting">
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../spaceship-i/README.md#user-content-the-spaceship-i)| [home](../README.md#user-content-gms2-ue4-space-rocks) | [next](../shooting/README.md#user-content-shooting)|
 |---|---|---|

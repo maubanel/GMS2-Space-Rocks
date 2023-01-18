@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### The Spaceship I
 
 <sub>[previous](../setting-up/README.md#user-content-setting-up) • [home](../README.md#user-content-gms2-ue4-space-rocks) • [next](../spaceship-ii/README.md#user-content-the-spaceship-ii)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Lets start by creating the spaceship artwork and getting the physics locked down so that we can perfect the feeling of the the game.
 
@@ -19,7 +19,7 @@ Open up the **Rooms** folder and rename **Room1** to `rm_game`.  Change the **Pr
 
 ![rename room to rm_game](images/renameRoomGame.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ Open up the **Rooms** folder and rename **Room1** to `rm_game`.  Change the **Pr
 
 ![resize sprite to 32 by 32](images/resize32by32.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ Now since we will be rotating the ship we want to change the **Origin** to `Midd
 
 ![change sprite origin to middle center](images/originMiddleCenter.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +43,7 @@ Select the white color and the second size square brush.  Press the <kbd>Polygon
 
 ![draw spaceship with polygon tool](images/DrawSpaceship.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
@@ -52,7 +52,7 @@ Select the white color and the second size square brush.  Press the <kbd>Polygon
 ![create obj_ship and assign spr_ship sprite](images/objShip.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
@@ -60,7 +60,7 @@ Press the <kbd>Add Event</kbd> button and select the **Create** event.  Center t
 
 ![set x and y to center of level](images/addShipCreateEvent.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -68,7 +68,7 @@ Open up **rm_game** and drag **obj_ship** to the middle of the room.  Don't worr
 
 ![put obj_sprite into rm_game](images/shipInRoom.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -76,7 +76,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Y
 
 ![play game with ship in center of room doing nothing](images/shipInRoomGame.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -84,7 +84,7 @@ To rotate we will be using the polar coordinate system to rotate the space ship.
 
 ![diagram of polar coordinate system](images/polarCoordinate.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
@@ -95,7 +95,7 @@ We need to *subtract* degrees for moving *clockwise* (the right arrow key) and *
 
 ![alt_text](images/addSubtract.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -109,7 +109,7 @@ In this code our when we set `image_angle = image_angle * 5`, this is adding eit
 
 ![add step event and add rotation code](images/rotateShipStep.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -118,7 +118,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 
 ![alt_text](images/RotatingShip.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -126,7 +126,7 @@ Now we do not want to hard code values we would like to change and tweek.  We ha
 
 ![add rotation variable and set to 5](images/AddRotationVar.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -138,7 +138,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. T
 
 ![alt_text](images/RotatingShip.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -146,7 +146,7 @@ Open up **obj_ship | Create** event and create a new variable called `accelerati
 
 ![add acceleration variable to ship create event](images/addAcceleration.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -162,7 +162,7 @@ So below we are adding an acceleration of the direction the ship is pointing in 
 
 ![alt_text](images/motionAdd.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -170,7 +170,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![play game and fly off screen](images/ShipOffScreen.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -178,7 +178,7 @@ There is a function called **[move_wrap(hor, vert, margin)](https://manual.yoyog
 
 ![add move wrap](images/moveWrap.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -186,7 +186,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![ship wraps in room but accelerates indefinitely](images/TooFastWrapShip.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
@@ -194,7 +194,7 @@ Open up **spr_ship | Create** and add a variable called `max_speed` and set it t
 
 ![add max_speed variable set to 8](images/maxSpeedCreate.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -209,11 +209,11 @@ The **val** is the variable we want to clamp.  The min and max are the range.  W
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - The Spaceship II">
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../setting-up/README.md#user-content-setting-up)| [home](../README.md#user-content-gms2-ue4-space-rocks) | [next](../spaceship-ii/README.md#user-content-the-spaceship-ii)|
 |---|---|---|

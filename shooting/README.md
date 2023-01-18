@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Shooting
 
 <sub>[previous](../spaceship-ii/README.md) • [home](../README.md#user-content-gms2-ue4-space-rocks) • [next](../asteroids-i/README.md#user-content-asteroids-i)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Now that we have a space ship flying around the level we want to add the ability for the ship to shoot bullets.  We will look at the issues that arise when dynamically creating game objects based on a user interaction.
 
@@ -19,7 +19,7 @@ Now that we have a space ship flying around the level we want to add the ability
 
 ![add spr_bullet and make it 6 by 6](images/sizeOfBulletSprite.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ Select a white color and the **Fill** tool. Fill in the sprite so it is solid wh
 
 ![Select a white color and the Fill tool to fill the entire sprite with white](images/dragWhiteIntoBullet.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ Select a white color and the **Fill** tool. Fill in the sprite so it is solid wh
 
 ![alt_text](images/objBullet.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -47,7 +47,7 @@ So we will first check to see if you have pressed the space key (`if (keyboard_c
 
 ![add shooting to obj_ship step event](images/addShooting.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
@@ -55,7 +55,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. *
 
 ![play the game and press the space bar](images/BulletsNotAnimating.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
@@ -69,7 +69,7 @@ If you cannot fire a bullet while turning left or right try reassigning the butt
 
 ![change keyboard check to keyboard_check_pressed](images/keyboardPressed.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -77,7 +77,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![alt_text](images/BulletsLessNoAnimation.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -85,7 +85,7 @@ Now `instance_create_depth()` returns a **Real (instance ID value)**, which give
 
 ![dot referencing bullet variable](images/instanceAccess.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -93,7 +93,7 @@ So now we can dot instance into the **direction** and **speed** of the bullet yo
 
 ![set speed and direciton of bullet](images/setBulletSpeedAndDirection.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
@@ -101,7 +101,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![play game and bullets now animate](images/BulletsAnimatingNoGC.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -109,7 +109,7 @@ Now there is a problem.  *Run* the game in debug mode by pressing the **Bug** ic
 
 ![run game in debug mode, set real time to on and see bullets in debugger](images/DebugShowingBullets.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -120,7 +120,7 @@ Open up **obj_bullet** and press the <kbd>Add Event</kbd> button and select **Ot
 
 ![add outside room event and destroy bullet](images/destroyBullet.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -128,7 +128,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. T
 
 ![play game and see bullets being destroyed in debugger](images/DebugBulletsGettingDestroyed.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -136,7 +136,7 @@ Open up **obj_ship** and lets add three new variables.  Add a variable called `b
 
 ![alt_text](images/threeNewVars.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -144,7 +144,7 @@ Change the `bullet.speed = 12;` to `bullet.speed = bullet_speed;` in **obj_ship 
 
 ![add able_to_shoot and bullet_speed](images/toggleBulletOff.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -152,7 +152,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![ship only fires a single bullet](images/FireOneBullet.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -164,7 +164,7 @@ We will set an alarm to go off in 5 frames (length of `reload_time`).
 
 ![set alarm after firing bullet](images/alarm0Call.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -172,7 +172,7 @@ Now press the <kbd>Add Event</kbd> button and select **Alarm | Alarm0**.  This a
 
 ![set alarm0 to be able to fire gun again](images/ableToShootAlarm.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -180,7 +180,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![play game with final ship firing](images/FireBullets.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
@@ -191,11 +191,11 @@ Select the **File | Save Project** then press **File | Quit** to make sure every
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Asteroids">
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../spaceship-ii/README.md)| [home](../README.md#user-content-gms2-ue4-space-rocks) | [next](../asteroids-i/README.md#user-content-asteroids-i)|
 |---|---|---|
