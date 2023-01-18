@@ -15,10 +15,13 @@ Lets start by creating the spaceship artwork and getting the physics locked down
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-Now before we can work in **GameMaker** again, we need to make sure the files are writable.  Perforce locks all files as read only so essentially you will not be able to save any work.  It is **VERY IMPORTANT** that the first thing we do is check out all the files to make them **ALL** writable.  Open up **P4V** and select the **SpaceRocks** folder.  Press the <kbd>Check Out</kbd> button.
+Now before we can work in **GameMaker** again, we need to make sure the files are writable.  Perforce locks all files as read only so essentially you will not be able to save any work.  It is **VERY IMPORTANT** that the first thing we do is check out all the files to make them **ALL** writable.  Open up **P4V** and select the **SpaceRocks** folder.  Press the <kbd>Check Out</kbd> button. Select a **New** changelist and describe the work you are going to do `Spaceship 1 portion of walkthrough`. Press the <OK> button.
 
 ![rename room to rm_game](images/checkOutAllFiles.png)
 
+Now all the files in the project will have a red check mark indicating that they are now writable and checked out.
+
+![red check mark](images/redCheck.png)
 
 ![](../images/line2.png)
 
