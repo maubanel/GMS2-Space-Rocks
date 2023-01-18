@@ -33,7 +33,7 @@ Press the <kbd>Lets Go!</kbd> button to start our new project.
 
 Now you should have an empty game with the defaul room!
 
-![empty project](images/refreshForLink.png)
+![empty project](images/blankProject.png)
 
 ![](../images/blankProject.png)
 
