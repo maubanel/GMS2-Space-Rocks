@@ -23,9 +23,9 @@ Pres the <kbd>New</kbd> then the <kbd>New Blank</kbd> to create a new blank proj
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Click on the **[GitHub Classroom Link](https://classroom.github.com/a/KhAozDsc)** if you want a repository to use for the game. Press the <kbd>Accept this assignment</kbd> button. 
+Press the <kbd>Lets Go</kbd> button to start our new project.
 
-![GitHub desktop accept assignemtn page](images/AcceptAssignment.png)
+![GitHub desktop accept assignemtn page](images/SelectLetsGo.png)
 
 ![](../images/line2.png)
 
