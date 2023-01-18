@@ -82,17 +82,9 @@ Notice that tracked files have a small green dot on all the files. That means th
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Confirm that you have 
+Confirm that you have properly uploaded to the **Depot** by selecting the tab and you should see the **SpaceRocks** folder up on the server!
 
-![add origin for github repository](images/setRemoteGitHub.png)
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
-
-Now type `git push -u origin main` to push your work to **GitHub**.  The project is now set up and you will be able to use **GitHub** desktop without command line for the rest of the project.
-
-![alt_text](images/PushToGitHub.png)
+![add origin for github repository](images/depotOnServer.png)
 
 
 ![](../images/line.png)
