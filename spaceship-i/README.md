@@ -211,7 +211,8 @@ ___
 
 ![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - The Spaceship II">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - The Spaceship II"> -->
+![Next Up the spaceship II](images/banner.png)
 
 ![](../images/line.png)
 
