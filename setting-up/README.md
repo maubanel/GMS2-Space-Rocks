@@ -39,9 +39,9 @@ Now you should have an empty game with the defaul room!
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Eventually you will get a link to the repository that **GitHub Classroom** has created.  *Click* on the link to your new repository.
+Now we want to add all these new files to our **Perforce** server. Open up **P4V** and select the **SpaceRocks** folder.  Now to add all these new files to the server press the <kbd>Add</kbd> button.
 
-![press link to repository](images/linkToRepository.png)
+![add new project folder to perforce](images/addFiles.png)
 
 ![](../images/line2.png)
 
