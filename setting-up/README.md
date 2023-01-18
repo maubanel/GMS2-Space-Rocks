@@ -23,7 +23,7 @@ Pres the <kbd>New</kbd> then the <kbd>New Blank</kbd> to create a new blank proj
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Press the <kbd>Lets Go</kbd> button to start our new project.
+Press the <kbd>Lets Go!</kbd> button to start our new project.
 
 ![press lets go](images/SelectLetsGo.png)
 
