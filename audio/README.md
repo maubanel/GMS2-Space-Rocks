@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Audio
 
 <sub>[previous](../waves/README.md#user-content-launch-waves) • [home](../README.md#user-content-gms2-ue4-space-rocks)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 After you have completed the game loop and added escalation, we can put the finishing touch with adding audio to the game. 
 
@@ -18,7 +18,7 @@ Lets add a shooting sound effect.  Download the [snd_zap.ogg](../Assets/snd_zap.
 
 ![download snd_zap and make into an audio file in gamemaker](images/zapSound.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -30,7 +30,7 @@ We will set the **index** to `snd_zap`, the **priority** to `1` (we have more th
 
 ![audio play sound snd_zap in shooting code](images/audioPlayZap.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -39,7 +39,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 https://user-images.githubusercontent.com/5504953/138128316-6f23ebba-bcbe-4fe1-83b9-36b10ee8c986.mp4
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -48,7 +48,7 @@ Lets add a rock blowing up sound effect.  Download the [snd_die.ogg](../Assets/s
 ![download and link snd_die.ogg](images/sndDie.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
@@ -56,7 +56,7 @@ Open up **obj_rock | collision | obj_bullet** and add to the top of the collisio
 
 ![download and link snd_die.ogg](images/audioPlayDie.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
@@ -64,7 +64,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 https://user-images.githubusercontent.com/5504953/138130572-c5738019-bc33-4bb0-97ec-c44ead954c73.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -73,7 +73,7 @@ Now when the ship collides with the rock we need to make a sound.  Open up **obj
 
 ![alt_text](images/shipCollisionRock.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -81,7 +81,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 https://user-images.githubusercontent.com/5504953/138130661-289f0c11-0398-4d6a-a80d-886f393f494c.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -90,7 +90,7 @@ Lets add some music to the game.  Download the [snd_song.ogg](../Assets/snd_song
 ![download and import snd_song.ogg](images/sndSong.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
@@ -105,7 +105,7 @@ So we are checking for the inverse by looking for `!audio_is_playing(snd_song)` 
 ![play song in room start of obj_game](images/playSong.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -113,7 +113,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 https://user-images.githubusercontent.com/5504953/138132003-3ca06d00-e704-47ea-aa56-147ca35a8f89.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -123,7 +123,7 @@ Lets add a win and lose track to the game.  Download the [snd_win.ogg](../Assets
 ![add a snd_win and snd_lose ogg to the game](images/winLoseSounds.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -132,7 +132,7 @@ You should now have a proper win condition so go to the **obj_game | Step** even
 ![stop playing audio](images/reactivateWinCondition.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -140,7 +140,7 @@ Now open up **obj_game | Alarm2** where we switch to the win room and play the w
 
 ![alt_text](images/playWinSong.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -150,7 +150,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 https://user-images.githubusercontent.com/5504953/138135502-d3daee86-30b9-4c4d-901a-5c67c2907df9.mp4
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -159,7 +159,7 @@ Now add the lose sound when you go to the **You Lose!** screen. Open up **obj_ga
 ![play lose sound in obj_game alarm1](images/alarm1LoseSound.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -168,7 +168,7 @@ Open up **obj_ship | Collision | obj_rock** and kill the song when the player ha
 ![kill song when player loses](images/objShipDiesStopSongLose.png)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -177,7 +177,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 https://user-images.githubusercontent.com/5504953/138133539-872be4c2-a614-4849-8e35-352dc6b6eaef.mp4
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
@@ -191,11 +191,11 @@ That's it for audio and the game. Select the **File | Save Project** then press 
 | :--- |
 | **That's All Folks!** That's it for space rocks. |
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=The End!">
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../waves/README.md#user-content-launch-waves)| [home](../README.md#user-content-gms2-ue4-space-rocks) |
 |---|---|

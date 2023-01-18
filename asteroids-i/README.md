@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Asteroids I
 
 <sub>[previous](../shooting/README.md#user-content-shooting) • [home](../README.md#user-content-gms2-ue4-space-rocks) • [next](../asteroids-ii/README.md#user-content-asteroids-ii)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Now that we have a ship that fires bullets, we need targets to shoot at.  The original game had three sizes of asteroids.  A large asteroid, that when shot would spawn two medium ones.  When the medium ones are destroyed they would spawn two small ones.  So adding one large asteroid to the level, adds 6 extra rocks to clear after it is destroyed (2 medium and 4 small).
 
@@ -19,7 +19,7 @@ Now that we have a ship that fires bullets, we need targets to shoot at.  The or
 
 ![alt_text](images/ThreeAsteroids.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ Make sure the **Origin** on all of them is `Middle | Center`.
 
 ![change origin of 3 astroids to middle center](images/centerOrigin.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ Make sure the **Origin** on all of them is `Middle | Center`.
 
 ![add obj_rock with spr_rock_large sprite](images/objRock.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,14 +43,14 @@ Now we want to spawn new rocks to send to the player just outside the room.  We 
 
 ![alt_text](images/stategyForSpawningMoveWrap.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
 Press the <kbd>Add Event</kbd> and select a **Create** event.  Remember this only runs once when the rock is created.  Now we will be dealing with the launching of rocks later on so we will put in a temporary **direction** and **speed**.  We will also need a variable to hold the **width** of the sprite which will help us with the margin we will need in the `move_wrap`.  
 ![alt_text](images/RockCreateEvent.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
@@ -58,7 +58,7 @@ Press the <kbd>Add Event</kbd> and select a **Step | Step** event. Now we will w
 
 ![add step event with move wrap and rotation](images/rockStep.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -66,7 +66,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![alt_text](images/RockFirstPass.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -74,7 +74,7 @@ Lets open up **obj_rock** and press the <kbd>Add Event</kbd> button and add a **
 
 ![add collision between rock and bullet event](images/rockBulletCollision.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -84,7 +84,7 @@ When the rock gets hit by the bullet we want to destroy both the bullet and the 
 
 ![destroy rock and bullet](images/instanceDestroyRock.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
@@ -92,7 +92,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![bullet and rock are destroyed on collision in game](images/bulletKillsRock.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -100,7 +100,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![create 2 by 2 explosion sprite and object](images/explosionSpriteObject.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -109,7 +109,7 @@ Open up **spr_explosion** and select <kbd>Edit Sprite</kbd>.  Select the **Paint
 
 ![alt_text](images/FillInExplosion.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -117,7 +117,7 @@ Open up **obj_rock | Collision | obj_bullet** and add to the bottom 40 explosion
 
 ![create 40 explosions](images/Create40Explisions.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -129,7 +129,7 @@ We will also use **[random_range(n1, n2)](https://manual.yoyogames.com/GameMaker
 
 ![set random direction and speed](images/objExplosionCreate.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -146,7 +146,7 @@ We will subtract this fraction from the **image_alpha** which will fade the spri
 
 ![alt_text](images/explosionStep.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -154,7 +154,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 
 ![rocks explodes in game](images/ExplosionEffect.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -162,7 +162,7 @@ Now we need to destroy the ship when the rock hits it.  Open up **obj_ship** and
 
 ![destroy rock and ship when they collide](images/shipRockCollision.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -172,7 +172,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. R
 
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -181,7 +181,7 @@ Now we do not want the default collision volume. We want to set it inside the sp
 
 ![alt_text](images/adjustCollisionOfRocks.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
@@ -189,7 +189,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![play game and ship and rock are destroyed](images/CloserDestruction.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -200,11 +200,11 @@ Open up **obj_ship | Collision | obj_bullet** and inside the **with(other)** spa
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Asteroids II">
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../shooting/README.md#user-content-shooting)| [home](../README.md#user-content-gms2-ue4-space-rocks) | [next](../asteroids-ii/README.md#user-content-asteroids-ii)|
 |---|---|---|

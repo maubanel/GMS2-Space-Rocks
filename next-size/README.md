@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Spawn Next Size Rock
 
 <sub>[previous](../asteroids-ii/README.md#user-content-asteroids-ii) • [home](../README.md#user-content-gms2-ue4-space-rocks) • [next](../game-loop/README.md#user-content-front-end)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Now in the original game when a rock is destroyed two rocks spawn of a smaller size.  So the large rock spawns two mediums.  The medium spawns two small rocks.  This allows one large rocks to have 6 more rocks spawn from it.
 
@@ -23,7 +23,7 @@ Then we repeat spawining a rock twice.  Now we need to change the default `sprit
 
 ![spawn two medium rocks when large one is killed](images/spawnTwoRocks.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -31,7 +31,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![play game two rocks spawn on top of each other](images/OverlappingMedRocks.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -47,7 +47,7 @@ So we need to dot instance into the newly spawned medium rock and set its direct
 
 ![alt_text](images/SprayRocks.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -55,7 +55,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![play game and now two medium rocks go off at different angles](images/LargeToMed.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
@@ -63,7 +63,7 @@ Repeat this for the medium rock getting hit and turning into two small rocks.  W
 
 ![adjust script for medium to small rock](images/MedToSmall.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
@@ -71,7 +71,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![play game and destroy all 7 rocks](images/FinalRocksSpawn.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -79,7 +79,7 @@ Now the final thing to do is to make the rocks go faster when they are smaller. 
 
 ![change large rock speed to 1](images/speedOne.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -88,7 +88,7 @@ Now open up **obj_rock | Collision | obj_bullet** and add two size changes for t
 
 ![change medium rock speed to two and small to 4](images/adjustSpeeedWhenSmaller.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -96,7 +96,7 @@ Now I forgot to put a `var` in front of the temp variable to make it local in sc
 
 ![save, quit, commit and push to github](images/fixSmallRock.png)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
@@ -104,7 +104,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![rocks get faster when they blow up and spawn smaller rocks](images/RocksSpeedUp.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond:
 
@@ -115,11 +115,11 @@ Select the **File | Save Project** then press **File | Quit** to make sure every
 ___
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Main Game Loop">
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../asteroids-ii/README.md#user-content-asteroids-ii)| [home](../README.md#user-content-gms2-ue4-space-rocks) | [next](../game-loop/README.md#user-content-front-end)|
 |---|---|---|

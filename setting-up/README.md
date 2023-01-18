@@ -102,12 +102,11 @@ Now type `git push -u origin main` to push your work to **GitHub**.  The project
 
 ![alt_text](images/PushToGitHub.png)
 
-___
-
 
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - The Spaceship I"> -->
+![Next Up ](images/banner.png)
 
 ![](../images/line.png)
 
