@@ -27,9 +27,13 @@ Now all the files in the project will have a red check mark indicating that they
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Open up the **Rooms** folder and rename **Room1** to `rm_game`.  Change the **Properties | Height** to `768` and the **Properties | Width** to `1024`.
+Open up the project in **GameMaker** and select the **Rooms** folder. Rename **Room1** to `rm_game`.  Change the **Properties | Height** to `768` and the **Properties | Width** to `1024`.
 
 ![rename room to rm_game](images/renameRoomGame.png)
+
+![](../images/line2.png)
+
+##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Right click* on **Sprites** and select **Create | Sprite** and name it `spr_ship`.  *Press* the <kbd>Resize</kbd> button (four arrows) to change the sprite. *Click* on **Resize Canvas** and change the **Width** and **Height** to `32` by `32`. Press the <kbd>Apply</kbd> button.
 
@@ -37,7 +41,7 @@ Open up the **Rooms** folder and rename **Room1** to `rm_game`.  Change the **Pr
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now since we will be rotating the ship we want to change the **Origin** to `Middle Center`. Press the <kbd>Edit Image</kbd> button.
 
@@ -45,7 +49,7 @@ Now since we will be rotating the ship we want to change the **Origin** to `Midd
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
 Select the white color and the second size square brush.  Press the <kbd>Polygon tool</kbd> button on the top left corner for just the outline.  Draw a triangle with a tail (so you know the ship is pointing right). Press the <kbd>Equal</kbd> button to see the sprite in its game size.
 
@@ -53,16 +57,15 @@ Select the white color and the second size square brush.  Press the <kbd>Polygon
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
+##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
 *Right click* on **Objects** and select **Create | Object** and name it `obj_ship`.  Assign sprite `spr_ship` by pressing **Sprite** and selecting the sprite.
 
 ![create obj_ship and assign spr_ship sprite](images/objShip.png)
 
-
 ![](../images/line2.png)
 
-##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Press the <kbd>Add Event</kbd> button and select the **Create** event.  Center the sprite on the screen.  Remember a **Create** event just runs once when the object is originally put into a level.  So this ensures that everytime a ship is created (maybe after it is destroyed by an asteroid) that it starts in the very middle of the level. Since our origin is center we can just divide the **[room_height](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Rooms/room_height.htm)** and **[room_width](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Rooms/room_width.htm)** by 2.
 
@@ -70,7 +73,7 @@ Press the <kbd>Add Event</kbd> button and select the **Create** event.  Center t
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open up **rm_game** and drag **obj_ship** to the middle of the room.  Don't worry about being too accurate as the **Create Event** will center the ship perfectly when you run the game.
 
@@ -78,7 +81,7 @@ Open up **rm_game** and drag **obj_ship** to the middle of the room.  Don't worr
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. You will see your spaceship facing right in the middle of the room with no physics.
 
@@ -86,26 +89,26 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Y
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
 To rotate we will be using the polar coordinate system to rotate the space ship.  **[image_angle](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/image_angle.htm)** is used to rotate the sprite to an angle between 0 and 359 degrees.  Right is 0 degrees, up is 90, left is 180 and down is 270.  So to move counter-clockwise we are adding degrees and to rotate clockwise we are subtracking degrees. The diagram below shows the spaceship's **image_angle** set to `90` degrees.
 
 ![diagram of polar coordinate system](images/polarCoordinate.png)
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
-
-
-We are using **[keyboard_check(key)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input/keyboard_check.htm)** that will return `1` when a key is being held and `0` when it is not. 
-
-We need to *subtract* degrees for moving *clockwise* (the right arrow key) and *add* degrees for moving *counter-clockwise*.  So we will be subtracting vk_right from vk_left.  This way when we are pressing *right* we will get **(0-1) or -1** and when pressing *left* we will get **(1-0) or +1**.
 
 ![alt_text](images/addSubtract.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
+
+We are using **[keyboard_check(key)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input/keyboard_check.htm)** that will return `1` when a key is being held and `0` when it is not. 
+
+We need to *subtract* degrees for moving *clockwise* (the right arrow key) and *add* degrees for moving *counter-clockwise*.  So we will be subtracting vk_right from vk_left.  This way when we are pressing *right* we will get **(0-1) or -1** and when pressing *left* we will get **(1-0) or +1**.
+
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Lets take this into a script.  Open up **obj_ship** and press the <kbd>Add Event</kbd> button and select **Step | Step**.  A step event runs every frame and will be used to move our ship. Add the following steps:
 
@@ -119,8 +122,7 @@ In this code our when we set `image_angle = image_angle * 5`, this is adding eit
 
 ![](../images/line2.png)
 
-
-##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Press the <kbd>Left</kbd> and <kbd>Right</kbd> arrow and the ship should rotate.
 
@@ -128,19 +130,11 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. P
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now we do not want to hard code values we would like to change and tweek.  We have hard coded 5 degrees as the speed of rotation.  Lets add a variable in **obj_ship | Create** event called `rotation`.
 
 ![add rotation variable and set to 5](images/AddRotationVar.png)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-Open up **obj_ship | Step** event and replace the hard coded value `5` with the variable `rotation`.
-
-![replace 5 with rotation in step](images/replace5.png)
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. The game should be identical to how it was previously.
 
@@ -150,13 +144,21 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. T
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
+Open up **obj_ship | Step** event and replace the hard coded value `5` with the variable `rotation`.
+
+![replace 5 with rotation in step](images/replace5.png)
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
 Open up **obj_ship | Create** event and create a new variable called `acceleration`.  This will be the amount we add to the speed of the ship in pixels per second.
 
 ![add acceleration variable to ship create event](images/addAcceleration.png)
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 We will be using **[motion_add(direction, speed)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement/motion_add.htm)**.
 
@@ -172,7 +174,7 @@ So below we are adding an acceleration of the direction the ship is pointing in 
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Notice that it feels like flying a space ship!  One major issue is that it can leave the level and no longer be seen, making it hard to fly back into the level.
 
@@ -180,7 +182,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 There is a function called **[move_wrap(hor, vert, margin)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement/move_wrap.htm)** to wrap the player from one side to the other.  The **hor** and **ver** parameters are booleans and need a `true` or `false`.  We will set them both to `true` as we want to wrap on all four sides of the room.  For the margin, the ship will teleport when the `origin` leaves the level.  So for our ship to be completely out of the room we need to offset the **margin** by `16` which is the location of the origin on both the x and y axis.
 
@@ -188,7 +190,7 @@ There is a function called **[move_wrap(hor, vert, margin)](https://manual.yoyog
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now the player will wrap but I keep accelerating in one direction the ship just goes faster and faster at infinitum.  We will need to clamp the speed.
 
@@ -196,7 +198,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
 Open up **spr_ship | Create** and add a variable called `max_speed` and set it to `8` pixels per frame.
 
@@ -204,7 +206,7 @@ Open up **spr_ship | Create** and add a variable called `max_speed` and set it t
 
 ![](../images/line2.png)
 
-##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+##### `Step 22.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open up **spr_ship | Step** event and add a **[clamp(val, min, max)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/clamp.htm)**. 
 
@@ -214,7 +216,6 @@ The **val** is the variable we want to clamp.  The min and max are the range.  W
 
 ![clamp max speed](images/clampMaxSpeed.png)
 
-___
 
 
 ![](../images/line.png)
