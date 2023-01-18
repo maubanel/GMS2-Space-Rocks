@@ -39,13 +39,21 @@ Now you should have an empty game with the defaul room!
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+All work we do in **Perforce** needs to be done when the project is no longer open.  An open **GameMaker** and an open **Perforce** could cause corruption issues with your project.  Select **GameMaker | Quit**.
+
+![quit gamemaker](images/quitGameMaker.png)
+
+![](../images/line2.png)
+
+##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
+
 Now we want to add all these new files to our **Perforce** server. Open up **P4V** and select the **SpaceRocks** folder.  Now to add all these new files to the server press the <kbd>Add</kbd> button.
 
 ![add new project folder to perforce](images/addFiles.png)
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
+##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
 Select a **New** changelist and an appropriate message describing what we did.  Press the <kbd>OK</kbd> button.
 
@@ -53,44 +61,28 @@ Select a **New** changelist and an appropriate message describing what we did.  
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
-
-Open up **GitHub Desktop** and select **File | New Repository** to create a **GitHub** repository inside the **GameMaker Space Rocks** project you just created.
-
-![alt_text](images/fileNewRepository.png)
-
-![](../images/line2.png)
-
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we want the project to be in the same folder as the `.yyp` project filename (in this case Space Rocks).  You then need to set the **name** the exact name of the folder that holds the project.  So in my case the folder that contained the project was **Documents | GitHub**.  So I use this as the **Local Path**.  For the **Name** I use the project folder `Space-Rocks`. It has to be spelled EXACTLY the same way as the one that holds the **GameMaker** project. This way it will create a git repository in this folder without creating a new folder.
+Press the <kbd>Submit</kbd> button and the changlist window comes up.  Press the <kbd>Submit</kbd> button on this pop up Window.
 
-![alt_text](images/SelectProjetFolder.png)
+![alt_text](images/submitToServer.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-When you see them there has to be a `.git` hidden folder in the **same** directory as the project file (in my case **Space-Rocks.yyp**).
+Notice that tracked files have a small green dot on all the files. That means they are now being tracked by **Perforce** and are up to date with the **Depot** (server).
 
-![.git folder in the same folder as project file](images/SpaceRocksGitDir.png)
+![alt_text](images/greenDot.png)
+
+
+![.git folder in the same folder as project file](images/depotOnServer.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press **Repository | Open in Terminal** on mac and **Repository | Open in ???** on PC.
-
-![create new repository in project folder](images/CreateNewRepository.png)
-
-Now the only way we know that it works properly is to turn on the ability to see hidden files and folders.  Go to [Microsoft Resources](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2) for windows 10 instructions for turning on hidden files and folders.  Read this [article](https://www.macworld.co.uk/how-to/show-hidden-files-mac-3520878/) for instructions on the mac.
-
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
-
-You now need to connect this new repository to the one you created in the second step in this walk through.  Copy and paste the line that includes `git remote add origin`... and press enter.
+Confirm that you have 
 
 ![add origin for github repository](images/setRemoteGitHub.png)
 
