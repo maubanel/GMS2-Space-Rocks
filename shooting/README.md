@@ -213,7 +213,8 @@ ___
 
 ![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Asteroids">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Asteroids"> -->
+
 ![Next Up asteroids](images/banner.png)
 
 ![](../images/line.png)
