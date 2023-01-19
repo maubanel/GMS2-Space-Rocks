@@ -47,9 +47,9 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. If you are using **GitHub** open up **GitHub Desktop** and add a title and longer description (if necessary) and press the <kbd>Commit to main</kbd> button. Finish by pressing **Push origin** to update the server with the latest changes.
+Select the **File | Save Project** then press **GameMaker | Quit** to make sure everything in the game is saved. 
 
-![save, quit, commit and push to github](images/GitHub.png)
+![save and quit](images/saveQuit.png)
 
 ___
 
