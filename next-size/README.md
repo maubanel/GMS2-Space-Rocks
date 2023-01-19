@@ -92,7 +92,7 @@ Now open up **obj_rock | Collision | obj_bullet** and add two size changes for t
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now I forgot to put a `var` in front of the temp variable to make it local in scope.  Also, the second set, I should call `small_rock` as it may be a confusing name since I copied and pasted from the medium.
+Now I forgot to put a `var` in front of the temp variables to make it local in scope. 
 
 ![save, quit, commit and push to github](images/fixSmallRock.png)
 
