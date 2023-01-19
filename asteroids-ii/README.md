@@ -69,8 +69,6 @@ Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker
 
 ![save, quit, commit and push to github](images/saveQuit.png)
 
-___
-
 
 ![](../images/line.png)
 
