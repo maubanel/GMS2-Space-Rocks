@@ -15,7 +15,11 @@ Now that we have a space ship flying around the level we want to add the ability
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-*Right click* on **Sprites** and select **New | Sprite** and name it `spr_bullet`. Change the size of the canvas to `6` by `6`.
+As with every session we start by checkout out all files in **P4V** so that they are all writable (otherwise they will be read only and none of the changes will be saved).
+
+![checkout all files in perforce](images/checkoutFiles.png)
+
+Open up **GameMaker** and load the **SpaceRocks** project. *Right click* on **Sprites** and select **New | Sprite** and name it `spr_bullet`. Change the size of the canvas to `6` by `6`.
 
 ![add spr_bullet and make it 6 by 6](images/sizeOfBulletSprite.png)
 

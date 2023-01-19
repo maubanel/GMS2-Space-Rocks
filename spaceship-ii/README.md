@@ -81,7 +81,7 @@ Go to the **Changelinst** tab and press the arrow to show all the files checked 
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now you can submit the files with no errors.  You are all done for this session.
+Now you can submit the changelist with no errors.  You are all done for this session.
 
 ![alt_text](images/submit.png)
 
