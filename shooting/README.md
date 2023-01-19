@@ -202,7 +202,7 @@ Select the top folder and press the **Add** button.  We want to add all the new 
 
 ![](../images/line2.png)
 
-##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+##### `Step 22.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
 
