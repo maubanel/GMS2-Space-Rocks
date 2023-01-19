@@ -177,7 +177,7 @@ Now we need to destroy the ship when the rock hits it.  Open up **obj_ship** and
 
 ##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Run into the rock with teh ship.  Notice that they both are destroyed.  It looks like it is destroyed before I hit the rock.  Lets adjust the collision volumes as the default is to take the entire square.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Run into the rock with the ship.  Notice that they both are destroyed.  It looks like it is destroyed before I hit the rock.  Lets adjust the collision volumes as the default is to take the entire square.
 
 ![alt_text](images/RockShipDestroyedLarge.gif)
 
