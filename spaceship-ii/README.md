@@ -51,6 +51,23 @@ Select the **File | Save Project** then press **GameMaker | Quit** to make sure 
 
 ![save and quit](images/saveQuit.png)
 
+![](../images/line2.png)
+
+##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
 ___
 
 
