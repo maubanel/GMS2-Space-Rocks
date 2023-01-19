@@ -48,7 +48,11 @@ Make sure the **Origin** on all of them is `Middle | Center`.
 
 Now we want to spawn new rocks to send to the player just outside the room.  We also want to `move_wrap` the rocks so that when they leave the room they come back on the other side.  Now we don't want a spawned rock to move wrap.  So we want to make sure we spawn within **half a sprite** width of the rock and the `move_wrap` **margin** is a **full** sprite_width.
 
-![alt_text](images/stategyForSpawningMoveWrap.png)
+![room wrap illustration](images/stategyForSpawningMoveWrap.png)
+
+Drag **obj_rock** in **rm_game**.
+
+![drag obj_rock in room](images/rockInRoom.png)
 
 ![](../images/line2.png)
 
