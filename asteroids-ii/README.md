@@ -65,7 +65,7 @@ Press the <kbd>Add Event</kbd> and select a **Create** event. Now doesn't that f
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved.
+Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
 ![save, quit, commit and push to github](images/saveQuit.png)
 
