@@ -15,6 +15,13 @@ Lets look at implementing a start screen. Lets have some rocks floating in the b
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
+Open up **P4v**.  Select the top folder of the **GameMaker** project. Press the <kbd>Checkout</kbd> button.  Checkout out all files in P4V so that they are all writable (otherwise they will be read only and none of the changes will be saved). Select a **New** changelist and add a message describing the unit of work you will be performing. Press the <kbd>OK</kbd> button.
+
+Open up the project you are working on in **GameMaker**. 
+
+![checkout files and create new changelist](images/checkoutFiles.png)
+
+
 *Right click* on **Rooms** and select **New | Room** and name it `rm_front_end`. Change the **Room Order** to place this room on the top of the list. Change the **Width** to `1024`.
 
 ![add rm_front_end and put on the top of room order](images/rmFE.png)
