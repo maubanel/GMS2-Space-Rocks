@@ -69,6 +69,21 @@ Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker
 
 ![save, quit, commit and push to github](images/saveQuit.png)
 
+##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
+
+![alt_text](images/add.png)
+
+![](../images/line2.png)
+
+##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
+
+![alt_text](images/submit.png)
+
+
 
 ![](../images/line.png)
 
