@@ -63,19 +63,35 @@ Select the top folder and press the **Add** button.  We want to add all the new 
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+We have hit our first **P4** issue.  The error says it can't find **Room1**.  Now we renamed this file to **rm_game**. So since GameMaker makes this file and we checked it out, it no longer finds the file.  So since it no longer exists we need to undo the prior checkout of this one file.
+
+In **Perforce** we call this reverting.
+
+![error on onld filename](images/firstP4Issue.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Go to the **Changelinst** tab and press the arrow to show all the files checked out.  Look for **Room 1** file and right click and select **Revert**.  This will uncheck out the file and will no longer expect to find it.
+
+![revert old filename](images/revertRoom1.png)
+
+![](../images/line2.png)
+
+##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now you can submit the files with no errors.  You are all done for this session.
+
+![alt_text](images/submit.png)
+
 ___
 
 
 ![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Shooting">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Shooting"> -->
+![Next Up ](images/banner.png)
 
 ![](../images/line.png)
 
