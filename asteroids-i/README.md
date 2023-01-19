@@ -22,7 +22,7 @@ Open up the project you are working on in **GameMaker**.
 ![checkout files and create new changelist](images/checkoutFiles.png)
 
 
-*Right click* 3 times on **Sprites** and select **New | Sprite** and name it `spr_large`, `spr_medium` and `spr_small`.  Make the large `128` by `128`.  Make the medium `64` by `64` and the small at `24` by `24`. Use a white square that is the second thickness from the left.  Use the **Polygon** tool and draw three asteroid shapes. 
+*Right click* 3 times on **Sprites** and select **New | Sprite** and name it `spr_rock_large`, `spr_rock_medium` and `spr_rock_small`.  Make the large `128` by `128`.  Make the medium `64` by `64` and the small at `24` by `24`. Use a white square that is the second thickness from the left.  Use the **Polygon** tool and draw three asteroid shapes. 
 
 ![alt_text](images/ThreeAsteroids.gif)
 
