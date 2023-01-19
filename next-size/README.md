@@ -116,9 +116,9 @@ Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
+Open up **P4V**. Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
 
-![alt_text](images/.png)
+![alt_text](images/addToP4.png)
 
 ![](../images/line2.png)
 
@@ -126,7 +126,7 @@ Select the top folder and press the **Add** button.  We want to add all the new 
 
 Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
 
-![alt_text](images/.png)
+![alt_text](images/submitToP4.png)
 
 
 ![](../images/line.png)
