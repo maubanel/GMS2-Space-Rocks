@@ -83,7 +83,7 @@ Go to the **Changelinst** tab and press the arrow to show all the files checked 
 
 Now you can submit the changelist with no errors.  You are all done for this session.
 
-![alt_text](images/submit.png)
+![submit files](images/submit.png)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Shooting"> -->
-![Next Up ](images/banner.png)
+![Next Up shooting](images/banner.png)
 
 ![](../images/line.png)
 
