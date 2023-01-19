@@ -55,7 +55,9 @@ Select the **File | Save Project** then press **GameMaker | Quit** to make sure 
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
+
+![add to changelist](images/addToRepo.png)
 
 ![](../images/line2.png)
 
