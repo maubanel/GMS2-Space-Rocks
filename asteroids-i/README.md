@@ -15,9 +15,12 @@ Now that we have a ship that fires bullets, we need targets to shoot at.  The or
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-Select the top folder of the **GameMaker** project. Press the <kbd>Checkout</kbd> button.  Checkout out all files in P4V so that they are all writable (otherwise they will be read only and none of the changes will be saved). Open up the project you are working on in **GameMaker**. Select a **New** changelist and add a message describing the unit of work you will be performing. Press the <kbd>OK</kbd> button.
+Open up **P4v**.  Select the top folder of the **GameMaker** project. Press the <kbd>Checkout</kbd> button.  Checkout out all files in P4V so that they are all writable (otherwise they will be read only and none of the changes will be saved). Select a **New** changelist and add a message describing the unit of work you will be performing. Press the <kbd>OK</kbd> button.
+
+Open up the project you are working on in **GameMaker**. 
 
 ![checkout files and create new changelist](images/checkoutFiles.png)
+
 
 *Right click* 3 times on **Sprites** and select **New | Sprite** and name it `spr_large`, `spr_medium` and `spr_small`.  Make the large `128` by `128`.  Make the medium `64` by `64` and the small at `24` by `24`. Use a white square that is the second thickness from the left.  Use the **Polygon** tool and draw three asteroid shapes. 
 
