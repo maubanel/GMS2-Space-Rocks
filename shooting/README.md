@@ -27,7 +27,7 @@ Open up **GameMaker** and load the **SpaceRocks** project. *Right click* on **Sp
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Select a white color and the **Fill** tool. Fill in the sprite so it is solid white.
+Press the <kbd>Edit Image</kbd> button. Select a white color and the **Fill** tool. Fill in the sprite so it is solid white.
 
 ![Select a white color and the Fill tool to fill the entire sprite with white](images/dragWhiteIntoBullet.png)
 
@@ -43,7 +43,7 @@ Select a white color and the **Fill** tool. Fill in the sprite so it is solid wh
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we will be using **[instance_create_depth(x, y, depth, obj)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/instance_create_depth.htm)** to spawn a bullet. 
+Open up **ObjShip | Step** event. Now we will be using **[instance_create_depth(x, y, depth, obj)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/instance_create_depth.htm)** to spawn a bullet. 
 
 > With this function you can create a new instance of the specified object at any given point within the room and at the depth specified. The depth can be any value, where the lower the depth the "nearer" to the camera things will be drawn and the higher the depth the further away, so an instance at depth -200 will be drawn over an instance at depth +300 (for example). - GameMake manual
 
@@ -144,7 +144,7 @@ Open up **obj_ship** and lets add three new variables.  Add a variable called `b
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-Change the `bullet.speed = 12;` to `bullet.speed = bullet_speed;` in **obj_ship | Step**. This replaces the hard-coded value wiht a variable that we can tune.  Lets also add a compund if statement so that not only does the player have ot press the space bar, but the && (and) also requires them to have `able_to_shoot` to be `true`.  We also will make `able_to_shoot` false when the bullet fires.  
+Change the `bullet.speed = 12;` to `bullet.speed = bullet_speed;` in **obj_ship | Step**. This replaces the hard-coded value with a variable that we can tune.  Lets also add a compund if statement so that not only does the player have ot press the space bar, but the && (and) also requires them to have `able_to_shoot` to be `true`.  We also will make `able_to_shoot` false when the bullet fires.  
 
 ![add able_to_shoot and bullet_speed](images/toggleBulletOff.png)
 
