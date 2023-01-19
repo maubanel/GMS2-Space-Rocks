@@ -208,9 +208,6 @@ Open up **obj_ship | Collision | obj_bullet** and inside the **with(other)** spa
 
 ![add fourty explosions for rock](images/FourtyExplosions.png)
 
-___
-
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Asteroids II"> -->
