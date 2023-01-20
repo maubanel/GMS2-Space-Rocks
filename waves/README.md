@@ -177,7 +177,7 @@ Delete the old win condition which was solely based on points (or comment it out
 
 So our third wave will force the player to move unless they want to die.  We will send a rock right at the center.
 
-In this case we will send two rocks at 10 seconds or 300 frames (10 * 30 frames/second).
+In this case we will send two rocks at 8 seconds or 480 frames (8 * 80 frames/second).
 
 ![send third wave](images/SecondWaveAsteroids.png)
 
