@@ -15,6 +15,13 @@ Lets add a score display to the front end and game! The player will get 20 point
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
+Open up **P4v**.  Select the top folder of the **GameMaker** project. Press the <kbd>Checkout</kbd> button.  Checkout out all files in P4V so that they are all writable (otherwise they will be read only and none of the changes will be saved). Select a **New** changelist and add a message describing the unit of work you will be performing. Press the <kbd>OK</kbd> button.
+
+Open up the project you are working on in **GameMaker**. 
+
+![checkout files and create new changelist](images/checkoutFiles.png)
+
+
 Go to **obj_game** and press the <kbd>Add Event</kbd> and select a **Create** event. Create a new variable `p1_score` and set it to `0`.
 
 ![add create event to obj_game and create a score variable](images/addCreateEvent.png)
