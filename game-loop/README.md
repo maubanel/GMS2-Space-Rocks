@@ -222,6 +222,7 @@ Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Score"> -->
+![Next Up Score](images/banner.png)
 
 ![](../images/line.png)
 
