@@ -19,6 +19,13 @@ Lets look at this.
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
+Open up **P4v**.  Select the top folder of the **GameMaker** project. Press the <kbd>Checkout</kbd> button.  Checkout out all files in P4V so that they are all writable (otherwise they will be read only and none of the changes will be saved). Select a **New** changelist and add a message describing the unit of work you will be performing. Press the <kbd>OK</kbd> button.
+
+Open up the project you are working on in **GameMaker**. 
+
+![checkout files and create new changelist](images/checkoutFiles.png)
+
+
 We will use timelines to spawn the rocks so go to **rm_game** and delete the rock we have in the room.
 
 ![delete rock in rm_game](images/deleteRock.png)
