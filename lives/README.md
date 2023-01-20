@@ -199,11 +199,27 @@ Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker
 
 ![save, quit, commit and push to github](images/saveQuit.png)
 
+![](../images/line2.png)
+
+##### `Step 23.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
+
+![checkout files and create new changelist](images/add.png)
+
+![](../images/line2.png)
+
+##### `Step 24.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
+
+![submit to P4V](images/submit.png)
 ___
 
 ![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Launch Waves">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Launch Waves"> -->
+![Next Up ](images/banner.png)
 
 ![](../images/line.png)
 
