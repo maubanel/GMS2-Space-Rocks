@@ -252,7 +252,21 @@ There are many other things you can do, have fun.  Next up we will finish with a
 
 Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
-![save, quit, commit and push to github](images/saveQuit.png)
+![save and quit](images/saveQuit.png)
+
+![](../images/line2.png)
+
+##### `Step 22.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![new title in game](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 23.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![new title in game](images/.png)
+
+
 
 ___
 
