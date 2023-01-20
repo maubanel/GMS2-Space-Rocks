@@ -14,6 +14,12 @@ After you have completed the game loop and added escalation, we can put the fini
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
+Open up **P4v**.  Select the top folder of the **GameMaker** project. Press the <kbd>Checkout</kbd> button.  Checkout out all files in P4V so that they are all writable (otherwise they will be read only and none of the changes will be saved). Select a **New** changelist and add a message describing the unit of work you will be performing. Press the <kbd>OK</kbd> button.
+
+Open up the project you are working on in **GameMaker**. 
+
+![checkout files and create new changelist](images/checkoutFiles.png)
+
 Lets add a shooting sound effect.  Download the [snd_zap.ogg](../Assets/snd_zap.ogg) file.  *Right click* on **Sounds** and select **Create Sound**.  Call the file `snd_zap`.  Press the <kbd>...</kbd> button and select the file you just downloaded **snd_zap.ogg**. Press the <kbd>Play</kbd> button and hear the sound it should make.
 
 ![download snd_zap and make into an audio file in gamemaker](images/zapSound.png)
