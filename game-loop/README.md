@@ -201,8 +201,21 @@ So we will be careful with this object and it will be the only persistent one in
 Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker | Quit** on Mac to make sure everything in the game is saved.
 
 ![save, quit, commit and push to github](images/saveQuit.png)
-___
 
+![](../images/line2.png)
+
+##### `Step 22.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Open up **P4V**.  Select the top folder and press the **Add** button.  We want to add all the new files we created during this last session.  Add these files to the last change list you used at the begining of the session (in my case it was `Spaceship I portion of walkthrough`). Press the <kbd>OK</kbd> button.
+
+![add all changes to P4V](images/addFiles.png)
+
+![](../images/line2.png)
+
+##### `Step 22.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+submit
 
 ![](../images/line.png)
 
