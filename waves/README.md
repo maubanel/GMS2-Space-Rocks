@@ -34,7 +34,7 @@ We will use timelines to spawn the rocks so go to **rm_game** and delete the roc
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Now we added rock spawning on player death to test lives.  We will now remove it as we will be adding waves.  Open up **obj_ship | Collision | obj_rock** and remove the rock spawning.
+Now we added rock spawning on player death to test lives.  We will now remove it as we will be adding waves.  Open up **obj_ship | Collision | obj_rock** and remove the rock spawning. Please note that there is nothing to type below, just remove the top portion of the image below and the bottom should be what it looks like after you delete the 2 rock spawning lines. 
 
 ![delete rock spawning in ship rock collision event](images/deleteRockSpawning.png)
 
@@ -50,7 +50,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Y
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* on **Timelines** and select **New | Timeline** and name it `tl_asteroid`.
+*Right click* on **Timelines** and select **New | Timeline** and name it `tml_asteroid`.
 
 ![add a new timeline called tl_asteroid](images/addTLAsteroid.png)
 
@@ -95,7 +95,7 @@ I find for going the opposite direction that the sprite is not half a height or 
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-I want to launch two large rocks at the player offset by a short amount of time.  I want to give them time to get used to the controls and playing the game.  I am assuming they have never played a game like this before.  So I will not hit them on the first two waves.  I can only make this assumption at this first ave as the player starts in the middle.  In any future waves I will not know where the player is located when launching.
+I want to launch two large rocks at the player offset by a short amount of time.  I want to give them time to get used to the controls and playing the game.  I am assuming they have never played a game like this before.  So I will not hit them on the first two waves.  I can only make this assumption at this first have as the player starts in the middle.  In any future waves I will not know where the player is located when launching.
 
 Open up **tl_asteroid** and press the <kbd>Add</kbd> button.  Set the moment at `15` (in frames, so half a second).  
 
