@@ -268,7 +268,8 @@ Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker
 
 ![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Audio">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Audio"> -->
+![Next Up Audio](images/banner.png)
 
 ![](../images/line.png)
 
