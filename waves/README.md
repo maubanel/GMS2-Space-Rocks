@@ -258,7 +258,7 @@ Select the **File | Save Project**, then press **File | Quit** (PC) **Game Maker
 
 ##### `Step 22.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![new title in game](images/.png)
+![new title in game](images/add.png)
 
 ![](../images/line2.png)
 
