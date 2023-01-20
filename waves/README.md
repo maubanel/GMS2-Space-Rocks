@@ -123,7 +123,7 @@ Notice I have using `*=`.  This saves space you can replace this: `small_rock.sp
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-Open up **tl_asteroid** and press the <kbd>Add</kbd> button and set the **Moment** to `240` (6 seconds or 240/60). This time we will spawn the second rock 3/4 of the screen to the right, at its full negative sprite height and this time we will spawn the medium rock.  We will set the speed to 2 (our starting speed for this rock, twice the large one) and send it at 80°. This will send it coming up from the bottom of the screen.  
+Open up **tml_asteroid** and press the <kbd>Add</kbd> button and set the **Moment** to `240` (6 seconds or 240/60). This time we will spawn the second rock 3/4 of the screen to the right, at its full negative sprite height and this time we will spawn the medium rock.  We will set the speed to 2 (our starting speed for this rock, twice the large one) and send it at 80°. This will send it coming up from the bottom of the screen.  
 
 ![spawn second rock in timeline](images/spawnSecondRock.png)
 
@@ -140,7 +140,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Open up **obj_game | Step** event script and remove the win condition by commenting it out. Lets say that your last wave is at 3 minutes (60 seconds * 3 minutes * 30 frames/second 5,400 frames), we can check for our win condition.  We also want ot make sure that you have shot all the rocks in the game.  So we will use **[instance_exists(obj)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/instance_exists.htm)**.
+Open up **obj_game | step** event script and remove the win condition by commenting it out. Lets say that your last wave is at 3 minutes (3 minutes * 60 seconds * 60 frames/second 10,800 frames), we can check for our win condition.  We also want ot make sure that you have shot all the rocks in the game.  So we will use **[instance_exists(obj)](https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Asset_Management/Instances/instance_exists.htm)**.
 
 > You can give it an object_index to check for, in which case this function will return true if any active instances of the specified object exist in the current room. - GameMaker Manual
 
@@ -158,7 +158,7 @@ So if there are no rocks left `instance_exists(obj_rock)` would return false.  S
 ```gml
 // WIN CONDITION
 // Check to see if our last wave has launched and no rocks are left in level
-if (timeline_position >= 5400 && !instance_exists(obj_rock))
+if (timeline_position >= 10800 && !instance_exists(obj_rock))
 {
     if (alarm[2] < 0)
     {
@@ -167,7 +167,7 @@ if (timeline_position >= 5400 && !instance_exists(obj_rock))
     }
 }
 ```
-You can add the above later on when you figure out when you launch your last wave!  For now we can just comment it out.
+Delete the old win condition which was solely based on points (or comment it out like I did) and add the above code instead.  This way the game will end at 3 minutes when there are no rocks left.  DO NOT LAUNCH WAVES after 10800 frames.
 
 ![remove win condition from obj_game](images/objGameStepWInCondition.png)
 
