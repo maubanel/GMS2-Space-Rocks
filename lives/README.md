@@ -120,21 +120,13 @@ Open up **obj_game** and press the <kbd>Add Event</kbd> and select a **Alarm | A
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now lose the game on purpose.  It works, but it is too sudden on the final death and we should delay the transition to see the ship die with another alarm set to 4 seconds.
-
-![alt_text](images/loseGame.gif)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now there is a nice delay on the last death to the lose room.
 
 ![alt_text](images/GameOverWithAlarm.gif)
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now open up **obj_game | Step** event.  Change the **keyboard_check** to **keyboard_check_pressed**.  Otherwise when coming back from the lose screen the game will skip right past the front end screen.  This way the player has to let go of enter and press again to go back to the game, which is the expected behavior.  Now add a check for the enter key in the game over screen and restart the game if it is pressed.
 
@@ -142,7 +134,7 @@ Now open up **obj_game | Step** event.  Change the **keyboard_check** to **keybo
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now we have a full loop where we can lose then restart the game.  Next on lets look at a win condition.
 
@@ -150,7 +142,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Now we will put in a win condition for testing for now.  You will need to finish it at the end when you complete the waves. Open up **obj_game| Step** and add to the bottom a check for `rm_game` then see if the score is equal or above 500.
 
@@ -158,7 +150,7 @@ Now we will put in a win condition for testing for now.  You will need to finish
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now we need to trigger an alarm 3 seconds in the futue.  The issue with **alarms** in step events is that if the condition runs every frame (so if the next frame, the score is still => 500) then it will set the alarm again ahead 3 seconds.  So the alarm will never ring (like hitting snooze every frame).  So the **alarm** starts at `-1` then we set it to 3.  So we can put an `if (alarm[2] < 0)`.  This way the alarm will run once it is set because it has to finish before going back to `-1`.  It won't run a second time as we will be changing levels.
 
@@ -168,7 +160,7 @@ We also need to restart the game if the player presses the enter key.  This is *
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Press the <kbd>Add Event</kbd> and select an **Alarm | Alarm2** event. Now switch rooms to `rm_win`.
 
@@ -176,7 +168,7 @@ Press the <kbd>Add Event</kbd> and select an **Alarm | Alarm2** event. Now switc
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open up **obj_game | Draw** script and add logic for drawing text to the win screen.  WHen in the `rm_win` screen draw `You Win` in the title font in lime.  Draw the final score and instructions for how to continue in the regular low res white font.
 
@@ -184,11 +176,17 @@ Open up **obj_game | Draw** script and add logic for drawing text to the win scr
 
 ![](../images/line2.png)
 
-##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
 
 Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now win the game and you should go to the **You Win** screen and restart the game with the <kbd>Enter</kbd> key.
 
 ![play game and win to finish game flow for winning](images/WinGameLoop.gif)
+
+![](../images/line2.png)
+
+##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+
 
 ___
 
