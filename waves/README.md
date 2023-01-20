@@ -217,7 +217,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. L
 
 ##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-So all previous times for alarms and waves are off.  We don't need to make changes as we tuned them to 'feel' right.  We can just convert our math to divide or multiply by 60 to get a value in seconds.  Here is the changed times for the waves which matches our timer.
+How do we know that the framerate is 60 frames per second?  Click on the **Game Options** gear and in the **General** tab there is the frames per second which should default to `60`. 
 
 ![all times are halved](images/timingChange.png)
 
