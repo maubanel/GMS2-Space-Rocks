@@ -185,9 +185,9 @@ In this case we will send two rocks at 10 seconds or 300 frames (10 * 30 frames/
 
 ##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
 
-Open up **tl_asteroid** and press the <kbd>Add</kbd> button and set the **Moment** to `300` (10 seconds or 10 * 30 frames/seconds). Now we script out what we diagramed above.
+Open up **tl_asteroid** and press the <kbd>Add</kbd> button and set the **Moment** to `480` (8 seconds or 60 * 60 frames/seconds). Now we script out what we diagramed above.
 
-![code for third wave](images/thirdWaveMoment.png)
+![diagram for third wave](images/thirdWaveMoment.png)
 
 ![](../images/line2.png)
 
