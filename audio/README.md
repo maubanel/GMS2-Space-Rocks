@@ -193,7 +193,8 @@ That's it for audio and the game. Select the **File | Save Project** then press 
 
 ![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=The End!">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=The End!"> -->
+![the end of walk through](images/banner.png)
 
 ![](../images/line.png)
 

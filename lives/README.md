@@ -218,7 +218,7 @@ Now you can submit the changelist by pressing both <kbd>Submit</kbd> buttons.
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Launch Waves"> -->
-![Next Up ](images/banner.png)
+![Next Up Launch Waves](images/banner.png)
 
 ![](../images/line.png)
 
