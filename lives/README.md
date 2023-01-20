@@ -112,18 +112,17 @@ Open up **obj_ship | Collision | obj_rock** and paste the code to change rooms a
 
 ##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Open up **obj_game** and press the <kbd>Add Event</kbd> and select a **Alarm | Alarm1** event. Add the code you copies to go to the lose room.
 
-Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now lose the game on purpose.  It works, but it is too sudden on the final death and we should delay the transition to see the ship die with another alarm set to 4 seconds.
-
-![alt_text](images/loseGame.gif)
+![add alarm 1 to obj_game to go to losing room](images/AlarmOneGame.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Open up **obj_game** and press the <kbd>Add Event</kbd> and select a **Alarm | Alarm1** event. Add the code you copies to go to the lose room.
+Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now lose the game on purpose.  It works, but it is too sudden on the final death and we should delay the transition to see the ship die with another alarm set to 4 seconds.
 
-![add alarm 1 to obj_game to go to losing room](images/AlarmOneGame.png)
+![alt_text](images/loseGame.gif)
 
 ![](../images/line2.png)
 
