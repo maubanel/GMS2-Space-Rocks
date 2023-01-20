@@ -115,7 +115,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 Now that we are spawning rocks on the **timeline** we can adjust the starting speed. So at the begining of the game we can have a speed of 1, 2 and 4.  But at the end we can increase it to our likeing (such as 3, 6 and 12).  Lets change the hard coding of the speeds of the medium and small and just double it instead.
 
-Notice I have using `*=`.  This saves space you can replace this: `small_rock.speed = small_rock.speed * 2;` with `small_rock.speed *= 2;`. 
+Notice I have using `*=`.  This saves space you can replace this: `small_rock.speed = small_rock.speed * 2;` with `small_rock.speed *= 2;`.  Open up **obj_rock | collision obj_bullet**.
 
 ![double speed of rocks when destroyed](images/rockSpeedAdjustment.png)
 
@@ -123,7 +123,7 @@ Notice I have using `*=`.  This saves space you can replace this: `small_rock.sp
 
 ##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
 
-Open up **tl_asteroid** and press the <kbd>Add</kbd> button and set the **Moment** to `220` (7.3 seconds or 220/30). This time we will spawn the second rock 3/4 of the screen to the right, at its full negative sprite height and this time we will spawn the medium rock.  We will set the speed to 2 (our starting speed for this rock, twice the large one) and send it at 80°. This will send it coming up from the bottom of the screen.  
+Open up **tl_asteroid** and press the <kbd>Add</kbd> button and set the **Moment** to `240` (6 seconds or 240/60). This time we will spawn the second rock 3/4 of the screen to the right, at its full negative sprite height and this time we will spawn the medium rock.  We will set the speed to 2 (our starting speed for this rock, twice the large one) and send it at 80°. This will send it coming up from the bottom of the screen.  
 
 ![spawn second rock in timeline](images/spawnSecondRock.png)
 
