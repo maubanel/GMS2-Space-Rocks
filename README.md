@@ -7,7 +7,7 @@ This tutorial is intended for those wanting an introduction to <i>GameMaker Stud
 This is the start of creating a **Asteroids** 'like' video game.  It will be a simpler version of the original introducing basic game design and development concepts.
 
 ## Introduction
-This is based on [GMS2 First Look](https://github.com/maubanel/GMS2-First_Look) and is meant as a follow up/companion to **Space Rocks - GML Tutorial** which is a freely available tutorial at [YoYo Games Marketplace](https://marketplace.yoyogames.com/assets/7423/space-rocks-gml).  This will go into the development of a game from scratch.
+This is an alteration of the included space rocks template provided by YoYo Games.  This will go into the development of a game from scratch. It is NOT a complete game but a scaffolding that allows you to complete the game on your own.
 
 In this tutorial:
 
