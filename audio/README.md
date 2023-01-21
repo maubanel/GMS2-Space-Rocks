@@ -20,7 +20,7 @@ Open up the project you are working on in **GameMaker**.
 
 ![checkout files and create new changelist](images/checkoutFiles.png)
 
-Lets add a shooting sound effect.  Download the [snd_zap.ogg](../Assets/snd_zap.ogg) file.  *Right click* on **Sounds** and select **Create Sound**.  Call the file `snd_zap`.  Press the <kbd>...</kbd> button and select the file you just downloaded **snd_zap.ogg**. Press the <kbd>Play</kbd> button and hear the sound it should make.
+Lets add a shooting sound effect.  Download the [snd_zap.ogg](../Assets/snd_zap.ogg) file.  *Right click* on **Sounds** and select **Create Sound**.  Call the file `snd_zap`.  Press the <kbd>...</kbd> button and select the file you just downloaded **Assets_snd_zap.ogg**. Press the <kbd>Play</kbd> button and hear the sound it should make.
 
 ![download snd_zap and make into an audio file in gamemaker](images/zapSound.png)
 
