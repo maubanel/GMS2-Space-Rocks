@@ -190,7 +190,7 @@ Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. N
 
 Select the **File | Save Project** then press **File | Quit** to make sure everything in the game is saved. 
 
-![save, quit, commit and push to github](images/GitHub.png)
+![save, quit, commit and push to github](images/saveQuit.png)
 
 ![](../images/line2.png)
 
