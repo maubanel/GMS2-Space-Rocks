@@ -47,13 +47,22 @@ All work we do in **Perforce** needs to be done when the project is no longer op
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
+Create a text file in TextEdit (Mac) or NotePad (PC) and create a file called `README`.  In the file just write you name on the first line.  Save it in the directory that contains your **SpaceRocks.yyp** file in the route folder of the project.
+
+![create and save README file with name in it](images/readmeFile.png)
+
+
+![](../images/line2.png)
+
+##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
+
 Now we want to add all these new files to our **Perforce** server. Open up **P4V** and select the **SpaceRocks** folder.  Now to add all these new files to the server press the <kbd>Add</kbd> button.
 
 ![add new project folder to perforce](images/addFiles.png)
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Select a **New** changelist and an appropriate message describing what we did.  Press the <kbd>OK</kbd> button.
 
@@ -61,20 +70,11 @@ Select a **New** changelist and an appropriate message describing what we did.  
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Press the <kbd>Submit</kbd> button and the changlist window comes up.  Press the <kbd>Submit</kbd> button on this pop up Window.
 
 ![alt_text](images/submitToServer.png)
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Notice that tracked files have a small green dot on all the files. That means they are now being tracked by **Perforce** and are up to date with the **Depot** (server).
-
-![alt_text](images/greenDot.png)
-
 
 ![.git folder in the same folder as project file](images/depotOnServer.png)
 
@@ -82,9 +82,18 @@ Notice that tracked files have a small green dot on all the files. That means th
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Notice that tracked files have a small green dot on all the files. That means they are now being tracked by **Perforce** and are up to date with the **Depot** (server).
+
+![alt_text](images/greenDot.png)
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
+
 Confirm that you have properly uploaded to the **Depot** by selecting the tab and you should see the **SpaceRocks** folder up on the server!
 
 ![add origin for github repository](images/depotOnServer.png)
+
 
 
 ![](../images/line.png)
