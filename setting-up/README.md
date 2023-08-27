@@ -12,7 +12,6 @@ Lets get started with setting up version control and starting the project.
 
 ---
 
-
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
 Pres the <kbd>New</kbd> then the <kbd>New Blank</kbd> to create a new blank project. Call the project `SpaceRocks`. Put it in the same folder that contains your **Perforce** repository. It should appear in the same folder as the first project **Getting Started**. Select this directory by pressing the <kbd>Open</kbd> button.
@@ -21,7 +20,7 @@ Pres the <kbd>New</kbd> then the <kbd>New Blank</kbd> to create a new blank proj
 
 ![](../images/line2.png)
 
-##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+##### `Step 2.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: 
 
 Press the <kbd>Lets Go!</kbd> button to start our new project.
 
@@ -91,8 +90,6 @@ Notice that tracked files have a small green dot on all the files. That means th
 Confirm that you have properly uploaded to the **Depot** by selecting the tab and you should see the **SpaceRocks** folder up on the server!
 
 ![check files are in depot repository](images/depotOnServer.png)
-
-
 
 ![](../images/line.png)
 
